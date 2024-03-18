@@ -1,0 +1,23 @@
+{
+  "name": "no_asm_def_31",
+  "version": "1.0.0",
+  "displayName": "no_asm_def_31",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "engine",
+    "app"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "guid": "ee6fc3c9-e71e-24d4-9b2a-816b312d176f",
+  "rootNamespace": "IziHardGames"
+}

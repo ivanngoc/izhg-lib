@@ -1,0 +1,14 @@
+{
+    "name": "izhg.pools.netstd21",
+    "rootNamespace": "IziHardGames.Pools.NetStd21",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.develop.engine.tooolsforconsole.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.develop.engine.tooolsforconsole.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "fad2db413a1e7514e8728766b7705f82",
+  "guid": "2476c342-7324-31d4-88af-9faf979f95e1",
+  "rootNamespace": "IziHardGames"
+}

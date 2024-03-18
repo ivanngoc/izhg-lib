@@ -1,0 +1,25 @@
+{
+  "name": "izhg.resource-management.abstractions.lib.asmdef",
+  "version": "1.0.0",
+  "displayName": "izhg.resource-management.abstractions.lib.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "b0840f85a1aa4c64fb6993e53fa85a31",
+  "guid": "0787d9fc-a5e6-7244-db43-6b422c25db06",
+  "rootNamespace": "IziHardGames"
+}

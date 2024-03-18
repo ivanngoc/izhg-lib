@@ -1,0 +1,19 @@
+{
+    "name": "IziHardGames.Libs.NonEngine.SpaceMap",
+    "rootNamespace": "IziHardGames.Libs.NonEngine.SpaceMap",
+    "references": [
+        "GUID:c986e801eb524734486198033062ee75",
+        "GUID:e5dafb6bbd1d44c428b77bc1e9205e3c",
+        "GUID:8c3bc8be546fb6d46945f1d3f64f53df",
+        "GUID:26521bfc7f0d059458e916a94547a41f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

@@ -1,0 +1,16 @@
+{
+    "name": "IziHardGames.Libs.Engine.Storages",
+    "rootNamespace": "",
+    "references": [
+        "GUID:654904184ada75044a8fd13e3dbf1973"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

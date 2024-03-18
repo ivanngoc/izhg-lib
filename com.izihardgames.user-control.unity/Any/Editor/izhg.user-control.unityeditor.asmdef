@@ -1,0 +1,19 @@
+{
+    "name": "izhg.User-Control.UnityEditor",
+    "rootNamespace": "IziHardGames.UserControl.ForUnityEditor",
+    "references": [
+        "GUID:5d7c5b5ecb0bee746bb925b274614805",
+        "GUID:9eefa938023c4898ba9e89e3b0ccaeb2"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

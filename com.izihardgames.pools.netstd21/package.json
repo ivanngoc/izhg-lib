@@ -1,0 +1,24 @@
+{
+  "name": "izhg.pools.netstd21.csproj",
+  "version": "1.0.0",
+  "displayName": "izhg.pools.netstd21.csproj",
+  "description": "",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "netstd21",
+    "memory"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "guid": "7c27d576-b311-48a4-7a2a-f496c7502774",
+  "rootNamespace": "IziHardGames"
+}

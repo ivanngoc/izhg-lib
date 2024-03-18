@@ -1,0 +1,16 @@
+{
+    "name": "IziHardGames.Libs.Engine.SpaceMap.QuadMap",
+    "rootNamespace": "IziHardGames.Libs.Engine.SpaceMap.QuadMap",
+    "references": [
+        "GUID:e053ec9db6762374f80eb03b8a1b4ca2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

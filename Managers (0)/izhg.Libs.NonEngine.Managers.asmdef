@@ -1,0 +1,14 @@
+{
+    "name": "izhg.Libs.NonEngine.Managers",
+    "rootNamespace": "IziHardGames.Libs.NonEngine.Managers",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

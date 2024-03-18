@@ -1,0 +1,24 @@
+{
+  "name": "izihardgames.libs.nonengine.spacemap.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.nonengine.spacemap.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "guid": "85b0bf17-72af-8c84-caf7-8f81868ae38a",
+  "rootNamespace": "IziHardGames"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "IziHardGames.Libs.NonEngine.ConditionalOperation",
+    "rootNamespace": "",
+    "references": [
+        "GUID:22dde0b189c60c84cbb13b33cc48bac6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

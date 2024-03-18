@@ -1,0 +1,118 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Editor.asmdef</ProjectName>
+    <ProjectGuid>20d4f3e8-7750-4138-9159-16f918cf2bf8</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.app.unity\Any\izhg.apps.unity.asmdef.csproj">
+      <Guid>0eeb0db8-4707-4541-837f-da716353d6e6</Guid>
+      <ProjectName>izhg.apps.unity.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+      <UnityAsmdefGuid>a9c0fe8467fbffa40ba36f8438e83385</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.buffers.netstd21\izhg.buffers.netstd21.csproj">
+      <Guid>2cbeccd4-5223-4d90-8924-bfa7f96a7b21</Guid>
+      <ProjectName>izhg.buffers.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.extensions.netstd21\izhg.extensions.netstd21.csproj">
+      <Guid>9a40762f-aea1-43a4-869c-cb9582884a51</Guid>
+      <ProjectName>izhg.extensions.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.extensions.unity\Any\IziHardGames.Libs.Engine.Extensions.asmdef.csproj">
+      <Guid>4c31f516-8713-47c8-9f75-adac4bed6497</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.Extensions.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.helpers-primitive-types.netstd21\izhg.helpers-primitive-types.netstd21.csproj">
+      <Guid>4cf517f7-b850-43e4-b64e-91f3b248235d</Guid>
+      <ProjectName>izhg.helpers-primitive-types.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.sorting.netstd21\izhg.sorting.netstd21.csproj">
+      <Guid>7188bc2c-193f-4d80-af38-cba1894f1d2f</Guid>
+      <ProjectName>izhg.sorting.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\IziHardGames.Libs.Engine.Core.asmdef.csproj">
+      <Guid>66390d5e-7e38-4d84-9d6d-fc3670d1f9f8</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.Core.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\CustomTypes\IziHardGames.Libs.Engine.CustomTypes.asmdef.csproj">
+      <Guid>2097281a-9e62-48b4-b422-e8e78c848201</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.CustomTypes.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Events\IziHardGames.Libs.NonEnginge.Events.asmdef.csproj">
+      <Guid>67a6dd35-ccb6-4bbf-afbb-aec33373a455</Guid>
+      <ProjectName>IziHardGames.Libs.NonEnginge.Events.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Extensions based on Custom Types\IziHardGames.Libs.Engine.CustomTypes.Extensions.asmdef.csproj">
+      <Guid>780d9ac8-1973-42cb-8c7f-1d2894ceada8</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.CustomTypes.Extensions.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Helpers\IziHardGames.Libs.Engine.Helpers.asmdef.csproj">
+      <Guid>3a8b7880-ff0c-472d-af59-389372429015</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.Helpers.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\IO\IziHardGames.Libs.NonEngine.IO.asmdef.csproj">
+      <Guid>28064214-7508-49e3-99ca-6c96b519d864</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.IO.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\IziHardGames.Libs.Unsorted.asmdef.csproj">
+      <Guid>263a0805-d22b-456a-9e34-99b50c394749</Guid>
+      <ProjectName>IziHardGames.Libs.Unsorted.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Language\IziHardGames.Localization.asmdef.csproj">
+      <Guid>0bd07c20-8456-41d9-8773-f7478f7ea196</Guid>
+      <ProjectName>IziHardGames.Localization.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Managers\IziHardGames.Libs.Engine.Managers.asmdef.csproj">
+      <Guid>5819eea8-8998-4d3c-952d-6d6c20c1a948</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.Managers.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Memory\IziHardGames.Libs.Engine.Memory.asmdef.csproj">
+      <Guid>688ca302-3a14-4ba7-88e2-870d89547170</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.Memory.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Non Linear Execution\IziHardGames.Libs.Engine.ParallelAndAsync.asmdef.csproj">
+      <Guid>50938712-ef1d-495f-8463-7f23bec4092f</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.ParallelAndAsync.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Resources Managment\IziHardGames.Libs.Engine.ResourcesManagment.asmdef.csproj">
+      <Guid>0be9ce56-c95c-4f9c-ad63-749b156cae93</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.ResourcesManagment.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\View\IziHardGames.Libs.Engine.View.asmdef.csproj">
+      <Guid>27667a9d-6c05-4a9d-b892-abe00f90e06c</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.View.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

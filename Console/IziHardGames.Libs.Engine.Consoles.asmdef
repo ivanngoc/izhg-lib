@@ -1,0 +1,16 @@
+{
+    "name": "IziHardGames.Libs.Engine.Consoles",
+    "rootNamespace": "IziHardGames.Libs.Engine.Consoles",
+    "references": [
+        "GUID:c7dc4fa0e48352544b9fef1d94033eff"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

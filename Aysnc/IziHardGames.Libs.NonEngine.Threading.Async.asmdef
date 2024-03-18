@@ -1,0 +1,17 @@
+{
+    "name": "IziHardGames.Libs.NonEngine.Async",
+    "rootNamespace": "IziHardGames.Libs.NonEngine.Threading.Async",
+    "references": [
+        "GUID:22dde0b189c60c84cbb13b33cc48bac6",
+        "GUID:c986e801eb524734486198033062ee75"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

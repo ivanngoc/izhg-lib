@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.Engine.PositioningSystem.asmdef</ProjectName>
+    <ProjectGuid>4095d862-3152-4740-8694-7fb5a0573368</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.app.abstractions.netstd21\Any\izhg.apps.abstractions.lib.asmdef.csproj">
+      <Guid>239298d4-8ee9-408d-902d-ed7a7801332d</Guid>
+      <ProjectName>izhg.apps.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+      <UnityAsmdefGuid>12e8e39da0122a641ad584746a49f82c</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.extensions.netstd21\izhg.extensions.netstd21.csproj">
+      <Guid>9a40762f-aea1-43a4-869c-cb9582884a51</Guid>
+      <ProjectName>izhg.extensions.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.pools.netstd21\Any\izhg.pools.netstd21.asmdef.csproj">
+      <Guid>706eeb85-5f98-44c4-bfb4-e929fc152544</Guid>
+      <ProjectName>izhg.pools.netstd21.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Quad Tile Graph\IziHardGames.Libs.NonEngine.Graph.QuadTile.asmdef.csproj">
+      <Guid>3d795ba4-2986-4796-853d-451bb3f7d4fa</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.Graph.QuadTile.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Vectors (0)\IziHardGames.Libs.NonEngine.Vectors.asmdef.csproj">
+      <Guid>784d81a3-9036-4f29-a2b2-361cd23e6db3</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.Vectors.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

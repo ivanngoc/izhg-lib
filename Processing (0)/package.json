@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.nonengine.processing.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.nonengine.processing.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "205e0e19d8dd3844b92b7bbf065fd1ee",
+  "guid": "30e7d472-8b23-f584-89c5-793cccd2f7f9",
+  "rootNamespace": "IziHardGames"
+}

@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.apps-game.unity</ProjectName>
+    <ProjectGuid>cc46503d-0003-463d-89a2-e6fc8b70bf35</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\.izhg-dlls\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\com.izihardgames.app-game-abstractions.lib\Any\izhg.apps-game.abstractions.lib.asmdef.csproj">
+      <Guid>93050798-36b6-4e6a-8aac-fa03f4343941</Guid>
+      <ProjectName>izhg.apps-game.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+      <UnityAsmdefGuid>01b3dd49ea56a7946b355ab7024f6bb5</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.app-game-abstractions.unity\izhg.apps-game.abstractions.unity.asmdef.csproj">
+      <Guid>64c1a2e8-b7c1-4653-97f3-bc870f9ac860</Guid>
+      <ProjectName>izhg.apps-game.abstractions.unity.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.app-game.lib\Any\izhg.apps-game.netstd21.csproj">
+      <Guid>ec50fd0e-e9b2-43d5-872f-14d712f20236</Guid>
+      <ProjectName>izhg.apps-game.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.app.abstractions.netstd21\Any\izhg.apps.abstractions.netstd21.csproj">
+      <Guid>239298d4-8ee9-408d-902d-ed7a7801332d</Guid>
+      <ProjectName>izhg.apps.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.app.abstractions.netstd21\izhg.app.abstractions.csproj" />
+    <ProjectReference Include="..\..\com.izihardgames.app.abstractions.unity\Any\izhg.apps.abstractions.unity.csproj">
+      <Guid>a3cdf3a1-a3e2-4b4e-b157-665e9a2546d4</Guid>
+      <ProjectName>izhg.apps.abstractions.unity.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.app.netstd21\Runtime\izhg.apps.netstd21.csproj">
+      <Guid>1b42888c-d32e-44da-b14c-2dc3fd076d6d</Guid>
+      <ProjectName>izhg.apps.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.app.unity\Any\izhg.apps.unity.csproj">
+      <Guid>0eeb0db8-4707-4541-837f-da716353d6e6</Guid>
+      <ProjectName>izhg.apps.unity.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.ticking-abstractions.lib\Any\izhg.ticking.abstractions.netstd21.csproj">
+      <Guid>5fe690d7-f683-43c7-85f1-4bc053e31fba</Guid>
+      <ProjectName>izhg.ticking.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.ticking.lib\Any\izhg.ticking.lib.asmdef.csproj">
+      <Guid>623695ca-093a-4e81-aff6-9f2364c6dbef</Guid>
+      <ProjectName>izhg.ticking.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.ticking.unity\Any\izhg.ticking.unity.asmdef.csproj">
+      <Guid>76f9583b-fd60-459d-8ca0-e1ad11110c19</Guid>
+      <ProjectName>izhg.ticking.unity.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.user-control.unity\Any\izhg.user-control.unity.csproj">
+      <Guid>ec1c35e4-c8b3-40a0-8a32-2d55de2b5c92</Guid>
+      <ProjectName>izhg.user-control.unity.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

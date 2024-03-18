@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.NonEngine.Graph.QuadTile.asmdef</ProjectName>
+    <ProjectGuid>3d795ba4-2986-4796-853d-451bb3f7d4fa</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.extensions.netstd21\izhg.extensions.netstd21.csproj">
+      <Guid>9a40762f-aea1-43a4-869c-cb9582884a51</Guid>
+      <ProjectName>izhg.extensions.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+      <UnityAsmdefGuid>a93563bf1e59a864dac40e4734a096cc</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.helpers-primitive-types.netstd21\izhg.helpers-primitive-types.netstd21.csproj">
+      <Guid>4cf517f7-b850-43e4-b64e-91f3b248235d</Guid>
+      <ProjectName>izhg.helpers-primitive-types.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.pools.netstd21\Any\izhg.pools.netstd21.asmdef.csproj">
+      <Guid>706eeb85-5f98-44c4-bfb4-e929fc152544</Guid>
+      <ProjectName>izhg.pools.netstd21.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\_Develop\Console\IziHardGames.Develop.Engine.TooolsForConsole.asmdef.csproj">
+      <Guid>939e521c-e6cd-4948-9553-ec393ca87702</Guid>
+      <ProjectName>IziHardGames.Develop.Engine.TooolsForConsole.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Mapping2D\IziHardGames.NonEngine.Mapping.Mapping2D.asmdef.csproj">
+      <Guid>563409f8-e52f-433c-87f4-1477e20fe259</Guid>
+      <ProjectName>IziHardGames.NonEngine.Mapping.Mapping2D.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Types For Serilization\IziHardGames.Libs.SerilizationTypes.asmdef.csproj">
+      <Guid>64795880-e39c-4b16-85d8-ad7406abea3f</Guid>
+      <ProjectName>IziHardGames.Libs.SerilizationTypes.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+{
+  "guid": "b124971e-a498-4f98-bc69-1a9bf4c7f957",
+  "csprojs": [
+    {
+      "guid": "d8a05c02-3f1e-4f98-881b-73390768b4a3",
+      "fileName": "izhg.unity-editor.csproj",
+      "pathRelative": "izhg.unity-editor.csproj"
+    }
+  ],
+  "asmdefs": [
+    {
+      "guid": "9eefa938-023c-4898-ba9e-89e3b0ccaeb2",
+      "fileName": "izhg.unity-editor.asmdef",
+      "pathRelative": "izhg.unity-editor.asmdef"
+    }
+  ],
+  "unitypacks": [
+    {
+      "guid": "e62a759b-b65e-4b36-abe0-7cb1c9ec5b6d",
+      "fileName": "package.json",
+      "pathRelative": "package.json"
+    }
+  ]
+}

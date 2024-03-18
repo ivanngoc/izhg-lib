@@ -1,0 +1,19 @@
+{
+    "name": "IziHardGames.Libs.NonEngine.Threading.Tasks",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c986e801eb524734486198033062ee75",
+        "GUID:93197c4a82ed74840ac11c8ab3c5b7df",
+        "GUID:22dde0b189c60c84cbb13b33cc48bac6",
+        "GUID:8ebc4cf70159fc940a87b396f90fd6b9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

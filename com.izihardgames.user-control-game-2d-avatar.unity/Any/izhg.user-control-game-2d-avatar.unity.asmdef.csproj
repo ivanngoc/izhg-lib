@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.user-control-game-2d-avatar.unity.asmdef</ProjectName>
+    <ProjectGuid>0a5933d7-1fc1-434a-85e5-a5f00aa07bd4</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\com.izihardgames.app.abstractions.netstd21\Any\izhg.apps.abstractions.netstd21.csproj">
+      <Guid>239298d4-8ee9-408d-902d-ed7a7801332d</Guid>
+      <ProjectName>izhg.apps.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+      <UnityAsmdefGuid>c5258081cf1120b4394a315c5fd4bd78</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.app.abstractions.unity\Any\izhg.apps.abstractions.unity.csproj">
+      <Guid>a3cdf3a1-a3e2-4b4e-b157-665e9a2546d4</Guid>
+      <ProjectName>izhg.apps.abstractions.unity.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.user-control-abstractions.lib\Any\izhg.user-control.abstractions.netstd21.csproj">
+      <Guid>00834522-6ea1-4acd-946c-1f49aeb30b81</Guid>
+      <ProjectName>izhg.user-control.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.user-control.unity\Any\izhg.user-control.unity.csproj">
+      <Guid>ec1c35e4-c8b3-40a0-8a32-2d55de2b5c92</Guid>
+      <ProjectName>izhg.user-control.unity.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

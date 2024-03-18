@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.SerilizationTypes.asmdef</ProjectName>
+    <ProjectGuid>64795880-e39c-4b16-85d8-ad7406abea3f</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.helpers-primitive-types.netstd21\izhg.helpers-primitive-types.netstd21.csproj">
+      <Guid>4cf517f7-b850-43e4-b64e-91f3b248235d</Guid>
+      <ProjectName>izhg.helpers-primitive-types.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+      <UnityAsmdefGuid>a93563bf1e59a864dac40e4734a096cc</UnityAsmdefGuid>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

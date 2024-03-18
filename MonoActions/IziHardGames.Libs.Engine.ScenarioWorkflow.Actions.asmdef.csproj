@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.Engine.ScenarioWorkflow.Actions.asmdef</ProjectName>
+    <ProjectGuid>1a289ad4-2db7-4b21-b450-72f7e55b7653</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aysnc\IziHardGames.Libs.NonEngine.Threading.Async.asmdef.csproj">
+      <Guid>4ca7cd7e-299b-4c4e-b460-ff69898e4c55</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.Threading.Async.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+      <UnityAsmdefGuid>12e8e39da0122a641ad584746a49f82c</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.app.abstractions.netstd21\Any\izhg.apps.abstractions.lib.asmdef.csproj">
+      <Guid>239298d4-8ee9-408d-902d-ed7a7801332d</Guid>
+      <ProjectName>izhg.apps.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.collections.pack\Collections\izhg.collections.unsorted.netstd21.csproj">
+      <Guid>0f749f48-6ecc-456c-b362-c643ad522253</Guid>
+      <ProjectName>izhg.collections.unsorted.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.pools.netstd21\Any\izhg.pools.netstd21.asmdef.csproj">
+      <Guid>706eeb85-5f98-44c4-bfb4-e929fc152544</Guid>
+      <ProjectName>izhg.pools.netstd21.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.ticking.lib\Any\izhg.ticking.lib.asmdef.csproj">
+      <Guid>623695ca-093a-4e81-aff6-9f2364c6dbef</Guid>
+      <ProjectName>izhg.ticking.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Move Patterns\IziHardGames.Libs.Engine.MovePatterns.asmdef.csproj">
+      <Guid>0bb69ecd-9dce-42a3-b793-ed2dcbd2e970</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.MovePatterns.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\StateMachine (0)\IziHardGames.Libs.NonEngine.StateMachines.asmdef.csproj">
+      <Guid>313bd282-5269-42b5-8793-5d86756e9c7a</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.StateMachines.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

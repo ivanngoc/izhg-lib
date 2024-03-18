@@ -1,0 +1,27 @@
+{
+  "name": "no_asm_def_5",
+  "version": "1.0.0",
+  "displayName": "no_asm_def_5",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "game",
+    "nonengine",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {
+    "izhg.app.abstractions.csproj": "1.0.0",
+    "izhg.collections.pack.asmdef": "1.0.0"
+  },
+  "guid": "25c2f252-fb4b-61c4-69b8-668793a302a1",
+  "rootNamespace": "IziHardGames"
+}

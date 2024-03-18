@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.Engine.Memory.asmdef</ProjectName>
+    <ProjectGuid>688ca302-3a14-4ba7-88e2-870d89547170</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.buffers.netstd21\izhg.buffers.netstd21.csproj">
+      <Guid>2cbeccd4-5223-4d90-8924-bfa7f96a7b21</Guid>
+      <ProjectName>izhg.buffers.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+      <UnityAsmdefGuid>518c4e16f0e50d8419fada85f284ee80</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.buffers.unity\izhg.buffers.unity.csproj">
+      <Guid>6721b290-a9e1-4bf3-9b78-9c9fcc006fd5</Guid>
+      <ProjectName>izhg.buffers.unity</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.pools.netstd21\Any\izhg.pools.netstd21.asmdef.csproj">
+      <Guid>706eeb85-5f98-44c4-bfb4-e929fc152544</Guid>
+      <ProjectName>izhg.pools.netstd21.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

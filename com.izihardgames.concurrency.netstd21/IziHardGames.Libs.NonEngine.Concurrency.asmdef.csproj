@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.NonEngine.Concurrency.asmdef</ProjectName>
+    <ProjectGuid>a44eab0d-7390-458f-8d02-65496e2b0293</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.sorting.netstd21\izhg.sorting.netstd21.csproj">
+      <Guid>7188bc2c-193f-4d80-af38-cba1894f1d2f</Guid>
+      <ProjectName>izhg.sorting.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+      <UnityAsmdefGuid>5dc595a012f4e2b4bbb440377449d4fe</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\Schema\IziHardGames.Libs.NonEngine.Scheming.asmdef.csproj">
+      <Guid>78b2d705-1b0d-4c86-ad35-d19f17062b4b</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.Scheming.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

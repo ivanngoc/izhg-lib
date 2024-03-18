@@ -1,0 +1,17 @@
+{
+    "name": "izhg.Ticking.Abstractions.Lib",
+    "rootNamespace": "IziHardGames.Ticking.Abstreactions.Lib",
+    "references": [
+        "GUID:12e8e39da0122a641ad584746a49f82c",
+        "GUID:ceb8a6f2aa23c854392f8b8b40029b7f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

@@ -1,0 +1,18 @@
+{
+    "name": "izhg.Apps-Game.Abstractions.Unity",
+    "displayName": "izhg.Apps-Game.Abstractions.Unity",
+    "version": "1.0.0",
+    "rootNamespace": "IziHardGames.Apps.Game.Abstractions.Unity",
+    "references": [
+        "GUID:fd0ae01c227f0f04c891fb355acc662e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

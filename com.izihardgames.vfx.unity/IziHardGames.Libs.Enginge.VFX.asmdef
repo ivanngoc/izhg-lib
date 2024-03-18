@@ -1,0 +1,17 @@
+{
+    "name": "IziHardGames.Libs.Enginge.VFX",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7c9702cd73164c94a894f061b19c8083",
+        "GUID:12e8e39da0122a641ad584746a49f82c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "IziHardGane.Develop.UI",
+    "rootNamespace": "",
+    "references": [
+        "GUID:654904184ada75044a8fd13e3dbf1973"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

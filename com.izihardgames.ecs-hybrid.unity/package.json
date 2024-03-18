@@ -1,0 +1,25 @@
+{
+  "name": "izhg.ecs-hybrid.unity.asmdef",
+  "version": "1.0.0",
+  "displayName": "izhg.ecs-hybrid.unity.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "guid": "5d7090da-c9b2-1944-5a98-4b51b11ea1e9",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "",
+  "rootNamespace": "IziHardGames"
+}

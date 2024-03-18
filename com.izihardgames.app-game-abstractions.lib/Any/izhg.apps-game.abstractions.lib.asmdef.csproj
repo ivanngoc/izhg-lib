@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.apps-game.abstractions.lib.asmdef</ProjectName>
+    <ProjectGuid>93050798-36b6-4e6a-8aac-fa03f4343941</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\com.izihardgames.app.abstractions.netstd21\Any\izhg.apps.abstractions.netstd21.csproj">
+      <Guid>239298d4-8ee9-408d-902d-ed7a7801332d</Guid>
+      <ProjectName>izhg.apps.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+      <UnityAsmdefGuid>89e0c69b96eaf054bbfaf33e247e047d</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.collections.pack\izhg.collections.pack.asmdef.csproj">
+      <Guid>69867559-14a0-4b4d-8de6-a694e80a452b</Guid>
+      <ProjectName>izhg.collections.pack.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

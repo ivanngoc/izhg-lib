@@ -1,0 +1,18 @@
+{
+    "name": "IziHardGames.Libs.Engine.CustomTypes.Extensions",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e5dafb6bbd1d44c428b77bc1e9205e3c",
+        "GUID:654904184ada75044a8fd13e3dbf1973",
+        "GUID:998c3e61e558bf74090e16e2737cfe0c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

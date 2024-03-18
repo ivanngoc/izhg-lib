@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.engine.handbooksworkflow.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.engine.handbooksworkflow.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "e52a056bb11218c47aba53e54e59e08b",
+  "guid": "bc662a72-cfb0-b094-d8d4-b92090628e5f",
+  "rootNamespace": "IziHardGames"
+}

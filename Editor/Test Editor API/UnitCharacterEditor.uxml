@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Label text="Активные умения" style="-unity-text-align: middle-center; background-color: rgba(0, 0, 0, 255);">
+        <Style src="UnitCharacterEditor.uss" />
+    </ui:Label>
+    <ui:VisualElement name="Name1" class="UnitBuilder class2">
+        <Style src="UnitCharacterEditor.uss" />
+    </ui:VisualElement>
+    <ui:Button text="Button">
+        <Style src="UnitCharacterEditor.uss" />
+    </ui:Button>
+    <ui:VisualElement name="Name1" class="UnitBuilder">
+        <Style src="UnitCharacterEditor.uss" />
+    </ui:VisualElement>
+</ui:UXML>

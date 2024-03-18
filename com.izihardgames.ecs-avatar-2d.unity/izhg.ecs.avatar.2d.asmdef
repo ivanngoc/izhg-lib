@@ -1,0 +1,31 @@
+{
+    "name": "izhg.ecs.avatar.2d",
+    "rootNamespace": "IziHardGames.ForEcs.Avatar2d",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:8819f35a0fc84499b990e90a4ca1911f",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:2665a8d13d1b3f18800f46e256720795",
+        "GUID:a5baed0c9693541a5bd947d336ec7659",
+        "GUID:63afb046c8423dd448ae7aba042ea63d",
+        "GUID:12e8e39da0122a641ad584746a49f82c",
+        "GUID:0b422b8bd46b2234894d399167b3f1a8",
+        "GUID:5c3674805d7ed12429a734f26d41de3a",
+        "GUID:c5258081cf1120b4394a315c5fd4bd78",
+        "GUID:dbc6257e654e02842be8ca1951646689",
+        "GUID:5d7c5b5ecb0bee746bb925b274614805",
+        "GUID:5ba4e1af240781148b3a5939dc76d64c",
+        "GUID:88244cc8753e7624989694c094dba8aa"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

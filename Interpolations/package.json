@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.engine.math.interpolations.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.engine.math.interpolations.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "dcea7fea6eaac6649930bc827f16ff91",
+  "guid": "2529968c-c6d8-e954-5b76-042fc5494c69",
+  "rootNamespace": "IziHardGames"
+}

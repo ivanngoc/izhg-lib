@@ -1,0 +1,22 @@
+{
+    "name": "IziHardGames.Libs.Engine.ScenarioWorkflow.Actions",
+    "rootNamespace": "IziHardGames.Libs.Engine.ScenarioWorkflow.Actions",
+    "references": [
+        "GUID:e569ea413d64b4e49b62064ba9d118f5",
+        "GUID:22dde0b189c60c84cbb13b33cc48bac6",
+        "GUID:c986e801eb524734486198033062ee75",
+        "GUID:d62fb36ff5dd94d48a3561c53569b9c2",
+        "GUID:8ebc4cf70159fc940a87b396f90fd6b9",
+        "GUID:07a7b5fbde8fba240839bd10a2c595fc",
+        "GUID:12e8e39da0122a641ad584746a49f82c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

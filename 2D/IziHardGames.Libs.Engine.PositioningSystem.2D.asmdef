@@ -1,0 +1,22 @@
+{
+    "name": "IziHardGames.Libs.Engine.PositioningSystem.2D",
+    "rootNamespace": "",
+    "references": [
+        "GUID:192e146cec690eb40abab0b10112da7c",
+        "GUID:22dde0b189c60c84cbb13b33cc48bac6",
+        "GUID:654904184ada75044a8fd13e3dbf1973",
+        "GUID:d8bf702f4fd9c4f488f3887787b36a18",
+        "GUID:e053ec9db6762374f80eb03b8a1b4ca2",
+        "GUID:388d4836110ba784bae16549263575f5",
+        "GUID:8c3bc8be546fb6d46945f1d3f64f53df"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

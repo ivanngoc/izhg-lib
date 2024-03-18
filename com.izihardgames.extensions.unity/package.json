@@ -1,0 +1,27 @@
+{
+  "name": "izhg.extensions.unity.csproj",
+  "version": "1.0.0",
+  "displayName": "izhg.extensions.unity.csproj",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {
+    "izihardgames.libs.nonengine.buffers.asmdef": "1.0.0",
+    "izihardgames.libs.nonengine.extensions.asmdef": "1.0.0"
+  },
+  "guid": "0e060009-080e-23f4-99ef-48e02777db55",
+  "rootNamespace": "IziHardGames"
+}

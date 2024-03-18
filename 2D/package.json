@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.engine.positioningsystem.2d.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.engine.positioningsystem.2d.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "cf5a805b0891ed449a19005087349c67",
+  "guid": "af2054a9-f412-2414-e960-d28c8e7fb875",
+  "rootNamespace": "IziHardGames"
+}

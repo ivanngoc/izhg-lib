@@ -1,0 +1,20 @@
+{
+    "name": "IziHardGames.Libs.Engine.Graphs",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e5dafb6bbd1d44c428b77bc1e9205e3c",
+        "GUID:a9c0fe8467fbffa40ba36f8438e83385",
+        "GUID:998c3e61e558bf74090e16e2737cfe0c",
+        "GUID:654904184ada75044a8fd13e3dbf1973",
+        "GUID:12e8e39da0122a641ad584746a49f82c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

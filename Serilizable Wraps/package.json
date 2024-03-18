@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.engine.serilizablewraps.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.engine.serilizablewraps.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "02add50f1bd870a4badd0171eb247e51",
+  "guid": "3386eb28-41ad-b0d4-eb89-0b938f74a12f",
+  "rootNamespace": "IziHardGames"
+}

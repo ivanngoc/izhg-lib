@@ -1,0 +1,25 @@
+{
+  "name": "com.izihardgames.object-avoidance.pack",
+  "version": "1.0.0",
+  "displayName": "com.izihardgames.object-avoidance.pack",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "guid": "8a00d96e-fbbb-12a4-0a48-4832e9e87cde",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "b65646687bc148c1b6c913e24d7e8ef0",
+  "rootNamespace": "IziHardGames"
+}

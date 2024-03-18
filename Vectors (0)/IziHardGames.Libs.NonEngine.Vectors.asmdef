@@ -1,0 +1,16 @@
+{
+    "name": "IziHardGames.Libs.NonEngine.Vectors",
+    "rootNamespace": "IziHardGames.Libs.NonEngine.Vectors",
+    "references": [
+        "GUID:7f7ec0b9624ff044dab5764a2199b064"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

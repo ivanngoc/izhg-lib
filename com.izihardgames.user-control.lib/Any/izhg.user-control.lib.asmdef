@@ -1,0 +1,23 @@
+{
+    "name": "izhg.User-Control.Lib",
+    "rootNamespace": "IziHardGames.UserControl.Lib",
+    "references": [
+        "GUID:12e8e39da0122a641ad584746a49f82c",
+        "GUID:c5258081cf1120b4394a315c5fd4bd78",
+        "GUID:70ad858607216eb488f57b3e1654d7d7",
+        "GUID:b488e1deade5a7547b271fd262db7be8",
+        "GUID:22dde0b189c60c84cbb13b33cc48bac6",
+        "GUID:57c8fef4d9aff634480cad468f3fdb14",
+        "GUID:adac920922bc45d4f94088f8f35bb546",
+        "GUID:128a1ef6f0a798d44bb267384b2bf10b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

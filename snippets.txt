@@ -1,0 +1,32 @@
+Assets/Packs/com.izihardgames.pools-abstractions.netstd21
+https://github.com/ivanngoc/com.izihardgames.pools-abstractions.netstd21.git
+
+git subtree split -P Assets/Packs/com.izihardgames.pools-abstractions.netstd21 -b pools-only
+
+PowerShell:
+git subtree split --prefix="Assets/Packs/com.izihardgames.pools-abstractions.netstd21" -b izhg.pools.abstractions.netstd21
+cd "Assets/Packs/com.izihardgames.pools-abstractions.netstd21"
+git init
+git add .
+git commit -m "init commit"
+git remote add origin https://github.com/ivanngoc/com.izihardgames.pools-abstractions.netstd21.git
+git remote add submodule https://github.com/ivanngoc/com.izihardgames.pools-abstractions.netstd21.git
+git submodule add https://github.com/ivanngoc/com.izihardgames.pools-abstractions.netstd21.git Assets/Packs/com.izihardgames.pools-abstractions.netstd21
+git push origin master
+
+
+cd Any
+dotnet new classlib -f netstandard2.1
+Rename-Item Any.csproj -NewName izhg.pools.abstractions.netstd21.csproj
+
+
+
+https://github.com/ivanngoc/com.izihardgames.pools.netstd21.git
+git subtree split --prefix="Assets/Packs/com.izihardgames.pools.netstd21" -b izhg.pools.netstd21
+cd "C:/Users/ngoc/Documents/[Unity] Projects/GameProject3/Assets/Packs/com.izihardgames.pools-abstractions.netstd21"
+git init
+cd Any
+dotnet new classlib -f netstandard2.1
+Rename-Item Any.csproj -NewName izhg.pools.abstractions.netstd21.csproj
+
+git remote add origin https://github.com/ivanngoc/com.izihardgames.spawning.pack.git

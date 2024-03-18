@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.nonengine.rectangles.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.nonengine.rectangles.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "26521bfc7f0d059458e916a94547a41f",
+  "guid": "1d6cf7b7-79af-74d4-086e-5e2681e4ce2c",
+  "rootNamespace": "IziHardGames"
+}

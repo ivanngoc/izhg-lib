@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.nonengine.mathtrigonometry.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.nonengine.mathtrigonometry.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "17da5201ec6895644851c5c015633f4e",
+  "guid": "4295575a-ce8c-fb84-6b1f-ec28f52e529d",
+  "rootNamespace": "IziHardGames"
+}

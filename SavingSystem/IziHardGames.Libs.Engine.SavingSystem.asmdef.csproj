@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.Engine.SavingSystem.asmdef</ProjectName>
+    <ProjectGuid>39463235-7ebd-404b-9586-e82aebd18aa6</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SaveObject\IziHardGames.Libs.NonEngine.SaveObject.asmdef.csproj">
+      <Guid>0bcef329-13c0-4f43-b536-478e786366c3</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.SaveObject.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+      <UnityAsmdefGuid>658a4ee7033bd6f4cb649b392cb8e78a</UnityAsmdefGuid>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

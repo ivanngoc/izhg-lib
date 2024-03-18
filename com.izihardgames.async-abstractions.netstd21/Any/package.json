@@ -1,0 +1,25 @@
+{
+  "name": "izhg.async.abstractions.netstd21.asmdef",
+  "version": "1.0.0",
+  "displayName": "izhg.async.abstractions.netstd21.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "c093f49a7aa321d4ba2f48f055717533",
+  "guid": "88da0a7a-5313-9694-8991-321744ba137d",
+  "rootNamespace": "IziHardGames"
+}

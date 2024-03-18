@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.apps.netstd21</ProjectName>
+    <ProjectGuid>1b42888c-d32e-44da-b14c-2dc3fd076d6d</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\com.izihardgames.app.abstractions.netstd21\Any\izhg.apps.abstractions.netstd21.csproj">
+      <Guid>239298d4-8ee9-408d-902d-ed7a7801332d</Guid>
+      <ProjectName>izhg.apps.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+      <UnityAsmdefGuid>486da6e238f015b48993e93c686b285f</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.dependency-injection.netstd21\izhg.dependency-injection.csproj" />
+    <ProjectReference Include="..\..\com.izihardgames.ticking-abstractions.lib\Any\izhg.ticking.abstractions.netstd21.csproj">
+      <Guid>5fe690d7-f683-43c7-85f1-4bc053e31fba</Guid>
+      <ProjectName>izhg.ticking.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.engine.memory.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.engine.memory.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "fb5a8d2d8f7d4204a86c6a31d3fd358c",
+  "guid": "c2c46888-cc89-e824-29de-0b0e18029957",
+  "rootNamespace": "IziHardGames"
+}

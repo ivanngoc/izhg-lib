@@ -1,0 +1,17 @@
+{
+    "name": "IziHardGames.Libs.NonEngine.Concurrency",
+    "rootNamespace": "",
+    "references": [
+        "GUID:adac920922bc45d4f94088f8f35bb546",
+        "GUID:5dc595a012f4e2b4bbb440377449d4fe"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.engine.gameevents.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.engine.gameevents.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "a54b532ddc55b304e88a67c567d234e7",
+  "guid": "b46aea9e-a170-5184-a8e0-a2bbf33199f7",
+  "rootNamespace": "IziHardGames"
+}

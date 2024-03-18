@@ -1,0 +1,21 @@
+{
+    "name": "izhg.Ticking.Lib",
+    "rootNamespace": "IziHardGames.Ticking.Lib",
+    "references": [
+        "GUID:0b422b8bd46b2234894d399167b3f1a8",
+        "GUID:12e8e39da0122a641ad584746a49f82c",
+        "GUID:adac920922bc45d4f94088f8f35bb546",
+        "GUID:c986e801eb524734486198033062ee75",
+        "GUID:5dc595a012f4e2b4bbb440377449d4fe",
+        "GUID:486da6e238f015b48993e93c686b285f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

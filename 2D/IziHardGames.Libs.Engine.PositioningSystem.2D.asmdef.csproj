@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.Engine.PositioningSystem.2D.asmdef</ProjectName>
+    <ProjectGuid>8ba1122b-08aa-425a-8ced-ecd502011900</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.collections.pack\Collections\izhg.collections.unsorted.netstd21.csproj">
+      <Guid>0f749f48-6ecc-456c-b362-c643ad522253</Guid>
+      <ProjectName>izhg.collections.unsorted.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+      <UnityAsmdefGuid>8c3bc8be546fb6d46945f1d3f64f53df</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.extensions.unity\Any\IziHardGames.Libs.Engine.Extensions.asmdef.csproj">
+      <Guid>4c31f516-8713-47c8-9f75-adac4bed6497</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.Extensions.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+      
+    </ProjectReference>
+    <ProjectReference Include="..\Mapping2D\IziHardGames.NonEngine.Mapping.Mapping2D.asmdef.csproj">
+      <Guid>563409f8-e52f-433c-87f4-1477e20fe259</Guid>
+      <ProjectName>IziHardGames.NonEngine.Mapping.Mapping2D.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Positioning System\IziHardGames.Libs.Engine.PositioningSystem.asmdef.csproj">
+      <Guid>4095d862-3152-4740-8694-7fb5a0573368</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.PositioningSystem.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Quad Tile Graph\IziHardGames.Libs.NonEngine.Graph.QuadTile.asmdef.csproj">
+      <Guid>3d795ba4-2986-4796-853d-451bb3f7d4fa</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.Graph.QuadTile.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\SpaceMap\IziHardGames.Libs.NonEngine.SpaceMap.asmdef.csproj">
+      <Guid>fcb5f143-386a-475f-9463-91c15736d211</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.SpaceMap.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Vectors (0)\IziHardGames.Libs.NonEngine.Vectors.asmdef.csproj">
+      <Guid>784d81a3-9036-4f29-a2b2-361cd23e6db3</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.Vectors.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

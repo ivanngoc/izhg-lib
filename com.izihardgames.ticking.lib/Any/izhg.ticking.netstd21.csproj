@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.ticking.lib.asmdef</ProjectName>
+    <ProjectGuid>623695ca-093a-4e81-aff6-9f2364c6dbef</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\com.izihardgames.app.abstractions.netstd21\Any\izhg.apps.abstractions.netstd21.csproj">
+      <Guid>239298d4-8ee9-408d-902d-ed7a7801332d</Guid>
+      <ProjectName>izhg.apps.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+      <UnityAsmdefGuid>486da6e238f015b48993e93c686b285f</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.app.netstd21\Runtime\izhg.apps.netstd21.csproj">
+      <Guid>1b42888c-d32e-44da-b14c-2dc3fd076d6d</Guid>
+      <ProjectName>izhg.apps.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.pools.netstd21\Any\izhg.pools.netstd21.asmdef.csproj">
+      <Guid>706eeb85-5f98-44c4-bfb4-e929fc152544</Guid>
+      <ProjectName>izhg.pools.netstd21.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.sorting.netstd21\izhg.sorting.netstd21.csproj">
+      <Guid>7188bc2c-193f-4d80-af38-cba1894f1d2f</Guid>
+      <ProjectName>izhg.sorting.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.ticking-abstractions.lib\Any\izhg.ticking.abstractions.lib.asmdef.csproj">
+      <Guid>5fe690d7-f683-43c7-85f1-4bc053e31fba</Guid>
+      <ProjectName>izhg.ticking.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Schema\IziHardGames.Libs.NonEngine.Scheming.asmdef.csproj">
+      <Guid>78b2d705-1b0d-4c86-ad35-d19f17062b4b</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.Scheming.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

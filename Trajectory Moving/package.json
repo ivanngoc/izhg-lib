@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.engine.trajectorymoving.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.engine.trajectorymoving.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "7135333f6423b4f4a88344f093b21105",
+  "guid": "5791a647-3e0e-12e4-6825-016e23b09d57",
+  "rootNamespace": "IziHardGames"
+}

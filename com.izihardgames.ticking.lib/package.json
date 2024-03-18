@@ -1,0 +1,31 @@
+{
+  "name": "izhg.ticking.netstd21.csproj",
+  "version": "1.0.0",
+  "displayName": "izhg.ticking.netstd21.csproj",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "engine",
+    "netstd21",
+    "updating"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {
+    "izhg.app.netstd21.csproj": "1.0.0",
+    "izhg.app.abstractions.csproj": "1.0.0",
+    "izihardgames.libs.nonengine.sorting.asmdef": "1.0.0",
+    "izhg.pools.netstd21.csproj": "1.0.0",
+    "izihardgames.libs.nonengine.scheming.asmdef": "1.0.0",
+    "izhg.ticking.abstractions.netstd21.csproj": "1.0.0"
+  },
+  "guid": "3127911a-52f7-f784-faed-8d4b315bbb77",
+  "rootNamespace": "IziHardGames"
+}

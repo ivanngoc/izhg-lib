@@ -1,0 +1,20 @@
+{
+    "name": "IziHardGames.Libs.Engine.Tilemapping",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c93677bcefc658145a063e22696c2c3d",
+        "GUID:d8bf702f4fd9c4f488f3887787b36a18",
+        "GUID:5d7c5b5ecb0bee746bb925b274614805",
+        "GUID:37b1478036239c14497e5062e8253bdd",
+        "GUID:388d4836110ba784bae16549263575f5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

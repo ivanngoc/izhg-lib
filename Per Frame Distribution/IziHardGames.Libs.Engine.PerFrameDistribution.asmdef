@@ -1,0 +1,22 @@
+{
+    "name": "IziHardGames.Libs.Engine.PerFrameDistribution",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fb5a8d2d8f7d4204a86c6a31d3fd358c",
+        "GUID:d3bc2fca18fcd2748810585559996a3d",
+        "GUID:adcc596a4f6e471449ff83eb2a29fdd1",
+        "GUID:c986e801eb524734486198033062ee75",
+        "GUID:8ebc4cf70159fc940a87b396f90fd6b9",
+        "GUID:07a7b5fbde8fba240839bd10a2c595fc",
+        "GUID:12e8e39da0122a641ad584746a49f82c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

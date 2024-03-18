@@ -1,0 +1,14 @@
+{
+    "name": "izhg.ui-toolkit.unity",
+    "rootNamespace": "IziHardGames.UI.Toolkit.Unity",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

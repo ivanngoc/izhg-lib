@@ -1,0 +1,1 @@
+mklink /J "C:\.izhg-lib" "C:\Users\ngoc\Documents\.izhg-lib"

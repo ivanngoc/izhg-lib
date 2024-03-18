@@ -1,0 +1,17 @@
+{
+  "name": "izhg.template",
+  "izhg_semantic_name": "",
+  "izhg_guid": "1f027108-773a-48a9-b08f-49613d43164d",
+  "izhg_guid_database": "00000000-0000-0000-0000-000000000000",
+  "rootNamespace": "IziHardGames",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

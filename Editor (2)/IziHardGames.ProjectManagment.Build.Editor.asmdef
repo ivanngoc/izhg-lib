@@ -1,0 +1,18 @@
+{
+    "name": "IziHardGames.ProjectManagment.Build.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0287cedbf0393fb47947f3bdf2771d93"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

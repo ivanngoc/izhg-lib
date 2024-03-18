@@ -1,0 +1,20 @@
+{
+    "name": "IziHardGames.Develop.Core",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7b604291313207b4f93e7922f82b1f33",
+        "GUID:654904184ada75044a8fd13e3dbf1973",
+        "GUID:e5dafb6bbd1d44c428b77bc1e9205e3c",
+        "GUID:1801168a33f047b45810157c117601d3",
+        "GUID:8ebc4cf70159fc940a87b396f90fd6b9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

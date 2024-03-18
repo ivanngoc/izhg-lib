@@ -1,0 +1,19 @@
+{
+    "name": "IziHardGames.Libs.Engine.Memory",
+    "rootNamespace": "",
+    "references": [
+        "GUID:93197c4a82ed74840ac11c8ab3c5b7df",
+        "GUID:a30a9db39c6f2f749a2a1241914b8f45",
+        "GUID:c986e801eb524734486198033062ee75",
+        "GUID:518c4e16f0e50d8419fada85f284ee80"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

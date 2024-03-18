@@ -1,0 +1,26 @@
+{
+    "name": "izhg.user-control-ecs.unity",
+    "rootNamespace": "IziHardGames",
+    "references": [
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:7a450cf7ca9694b5a8bfa3fd83ec635a",
+        "GUID:63afb046c8423dd448ae7aba042ea63d",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:12e8e39da0122a641ad584746a49f82c",
+        "GUID:c5258081cf1120b4394a315c5fd4bd78",
+        "GUID:5d7c5b5ecb0bee746bb925b274614805",
+        "GUID:0b422b8bd46b2234894d399167b3f1a8",
+        "GUID:ceb8a6f2aa23c854392f8b8b40029b7f",
+        "GUID:5c3674805d7ed12429a734f26d41de3a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

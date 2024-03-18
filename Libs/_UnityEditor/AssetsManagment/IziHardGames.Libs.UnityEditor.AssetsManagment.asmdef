@@ -1,0 +1,19 @@
+{
+    "name": "IziHardGames.Libs.UnityEditor.AssetsManagment",
+    "rootNamespace": "IziHardGames.Libs.UnityEditor.AssetsManagment",
+    "references": [
+        "GUID:654904184ada75044a8fd13e3dbf1973",
+        "GUID:310c22d4f83bd3748923296f0b3a5cc3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

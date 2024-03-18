@@ -1,0 +1,25 @@
+{
+  "name": "izhg.apps-game-client.unity.asmdef",
+  "version": "1.0.0",
+  "displayName": "izhg.apps-game-client.unity.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "ebd287c32fdbda948bd4ae8c3d573850",
+  "guid": "71826dff-05f4-71f4-78e0-1d7bd952ec54",
+  "rootNamespace": "IziHardGames"
+}

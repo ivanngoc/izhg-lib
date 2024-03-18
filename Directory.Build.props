@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <MSBuildProjectExtensionsPath>C:\buildstemp\unitypacks\obj</MSBuildProjectExtensionsPath>
+  </PropertyGroup>
+</Project>

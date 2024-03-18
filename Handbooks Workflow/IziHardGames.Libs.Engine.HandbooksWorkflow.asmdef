@@ -1,0 +1,18 @@
+{
+    "name": "IziHardGames.Libs.Engine.HandbooksWorkflow",
+    "rootNamespace": "",
+    "references": [
+        "GUID:85f9a0243e974e3458e90d4fd90a86f6",
+        "GUID:1801168a33f047b45810157c117601d3",
+        "GUID:12e8e39da0122a641ad584746a49f82c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

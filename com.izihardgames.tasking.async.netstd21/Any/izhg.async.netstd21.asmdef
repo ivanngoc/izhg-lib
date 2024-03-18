@@ -1,0 +1,16 @@
+{
+    "name": "izhg.async.netstd21",
+    "rootNamespace": "IziHardGames.Async.NetStd21",
+    "references": [
+        "GUID:ceb8a6f2aa23c854392f8b8b40029b7f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

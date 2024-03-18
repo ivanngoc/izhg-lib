@@ -1,0 +1,16 @@
+{
+    "name": "IziHardGames.Libs.Engine.Components.NonMono",
+    "rootNamespace": "",
+    "references": [
+        "GUID:60e3ff668576f3a4a98d82b4dd6ae2e7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

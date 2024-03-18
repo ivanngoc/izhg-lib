@@ -1,0 +1,21 @@
+{
+    "name": "izhg.user-control-input-system-ecs.unity",
+    "rootNamespace": "",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:ceb8a6f2aa23c854392f8b8b40029b7f",
+        "GUID:c5258081cf1120b4394a315c5fd4bd78",
+        "GUID:c93677bcefc658145a063e22696c2c3d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

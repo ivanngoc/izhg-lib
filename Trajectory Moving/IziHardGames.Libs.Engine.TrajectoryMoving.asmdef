@@ -1,0 +1,16 @@
+{
+    "name": "IziHardGames.Libs.Engine.TrajectoryMoving",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e5dafb6bbd1d44c428b77bc1e9205e3c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

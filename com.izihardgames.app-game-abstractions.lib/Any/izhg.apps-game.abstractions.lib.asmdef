@@ -1,0 +1,18 @@
+{
+    "name": "izhg.Apps-Game.Abstractions.lib",
+    "rootNamespace": "IziHardGames.Apps.Game.Abstractions.Lib",
+    "references": [
+        "GUID:12e8e39da0122a641ad584746a49f82c",
+        "GUID:89e0c69b96eaf054bbfaf33e247e047d",
+        "GUID:e8a978fe2b1d3d74eafb1607f2e4d169"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

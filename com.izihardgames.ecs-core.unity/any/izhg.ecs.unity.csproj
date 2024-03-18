@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.ecs.unity</ProjectName>
+    <ProjectGuid>8d0ec911-dabb-4857-a458-3cf69e2cbb06</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Unity.Entities">
+      <HintPath>..\..\..\.izhg-dlls\Unity3d Dlls\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\.izhg-dlls\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\com.izihardgames.app.abstractions.netstd21\Any\izhg.apps.abstractions.netstd21.csproj" />
+    <ProjectReference Include="..\..\com.izihardgames.attributes.netstd21\izhg.attributes.csproj" />
+    <ProjectReference Include="..\..\com.izihardgames.ticking-abstractions.lib\Any\izhg.ticking.abstractions.netstd21.csproj">
+      <Guid>5fe690d7-f683-43c7-85f1-4bc053e31fba</Guid>
+      <ProjectName>izhg.ticking.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+      <UnityAsmdefGuid>486da6e238f015b48993e93c686b285f</UnityAsmdefGuid>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+</Project>

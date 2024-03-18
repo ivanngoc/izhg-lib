@@ -1,0 +1,20 @@
+{
+    "name": "IziHardGames.Libs.NonEngine.IO",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a93563bf1e59a864dac40e4734a096cc",
+        "GUID:93197c4a82ed74840ac11c8ab3c5b7df",
+        "GUID:e5dafb6bbd1d44c428b77bc1e9205e3c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

@@ -1,0 +1,35 @@
+{
+  "name": "izihardgames.libs.unsorted.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.unsorted.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {
+    "izihardgames.libs.engine.core.asmdef": "1.0.0",
+    "izhg.extensions.unity.csproj": "1.0.0",
+    "izihardgames.libs.nonengine.extensions.asmdef": "1.0.0",
+    "izihardgames.libs.engine.resourcesmanagment.asmdef": "1.0.0",
+    "izhg.ticking.netstd21.csproj": "1.0.0",
+    "izihardgames.libs.engine.helpers.asmdef": "1.0.0",
+    "izihardgames.editor.asmdef": "1.0.0",
+    "izihardgames.libs.engine.customtypes.asmdef": "1.0.0",
+    "izihardgames.libs.engine.customtypes.extensions.asmdef": "1.0.0"
+  },
+  "asmdefGuid": "56da0e9a145de8848b71d29151c7ae34",
+  "guid": "86bb3e9b-48a0-6704-f979-d39f0f647122",
+  "rootNamespace": "IziHardGames"
+}

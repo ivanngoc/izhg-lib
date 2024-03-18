@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.ProjectManagment.Build.Editor.asmdef</ProjectName>
+    <ProjectGuid>de01d3fe-c498-42cd-80a4-4b256683d819</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project Managment Build\IziHardGames.ProjectManagment.Build.asmdef.csproj">
+      <Guid>76159eed-e701-4de4-a8ba-233edf8841cc</Guid>
+      <ProjectName>IziHardGames.ProjectManagment.Build.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:08</IziTag>
+      <UnityAsmdefGuid>0287cedbf0393fb47947f3bdf2771d93</UnityAsmdefGuid>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

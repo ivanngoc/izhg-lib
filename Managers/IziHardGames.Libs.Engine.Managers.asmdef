@@ -1,0 +1,22 @@
+{
+    "name": "IziHardGames.Libs.Engine.Managers",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7b604291313207b4f93e7922f82b1f33",
+        "GUID:1801168a33f047b45810157c117601d3",
+        "GUID:fb5a8d2d8f7d4204a86c6a31d3fd358c",
+        "GUID:7c9702cd73164c94a894f061b19c8083",
+        "GUID:c986e801eb524734486198033062ee75",
+        "GUID:8ebc4cf70159fc940a87b396f90fd6b9",
+        "GUID:12e8e39da0122a641ad584746a49f82c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

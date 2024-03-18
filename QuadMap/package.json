@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.engine.spacemap.quadmap.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.engine.spacemap.quadmap.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "e7f2c7a36f683b54c9f2dc072e3ba206",
+  "guid": "1b79493b-9a41-5514-cbe6-63dfe2b06b6e",
+  "rootNamespace": "IziHardGames"
+}

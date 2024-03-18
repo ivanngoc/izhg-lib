@@ -1,0 +1,25 @@
+{
+  "name": "com.izihardgames.tasking.pack",
+  "version": "1.0.0",
+  "displayName": "com.izihardgames.tasking.pack",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "guid": "bd8b5e36-3f36-8864-7be2-137f60ea9b44",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "fc71d05605754da28bf1447d982f5e1c",
+  "rootNamespace": "IziHardGames"
+}

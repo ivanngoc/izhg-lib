@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.engine.graph.pathfinding.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.engine.graph.pathfinding.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "44b5373e7a7398640b80892d07af50a2",
+  "guid": "ac43ff0f-8e12-8be4-6acf-595fd97b6085",
+  "rootNamespace": "IziHardGames"
+}

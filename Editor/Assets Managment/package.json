@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.unityengine.editor.assetsmanagment.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.unityengine.editor.assetsmanagment.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "cf6b332646b94914ba22527f73633909",
+  "guid": "01d4a4f6-b149-73c4-1af3-de85cb429b32",
+  "rootNamespace": "IziHardGames"
+}

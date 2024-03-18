@@ -1,0 +1,25 @@
+{
+  "name": "no_asm_def_1",
+  "version": "1.0.0",
+  "displayName": "no_asm_def_1",
+  "description": "DOTS (Data-Oriented Technology Stack). \u0414\u0430\u0442\u0430 \u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0435 \u043F\u0430\u043A\u0435\u0442",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions",
+    "dots"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "guid": "038e50fa-7f49-8fc4-da71-4bac9ce7f457",
+  "rootNamespace": "IziHardGames"
+}

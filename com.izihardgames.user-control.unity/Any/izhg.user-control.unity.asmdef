@@ -1,0 +1,24 @@
+{
+    "name": "izhg.User-Control.Unity",
+    "rootNamespace": "IziHardGames.UserControl.ForUnity",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:0b422b8bd46b2234894d399167b3f1a8",
+        "GUID:85f9a0243e974e3458e90d4fd90a86f6",
+        "GUID:12e8e39da0122a641ad584746a49f82c",
+        "GUID:c5258081cf1120b4394a315c5fd4bd78",
+        "GUID:dbc6257e654e02842be8ca1951646689",
+        "GUID:486da6e238f015b48993e93c686b285f",
+        "GUID:310c22d4f83bd3748923296f0b3a5cc3",
+        "GUID:ceb8a6f2aa23c854392f8b8b40029b7f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

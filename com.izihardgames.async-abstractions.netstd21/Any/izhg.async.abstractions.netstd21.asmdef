@@ -1,0 +1,14 @@
+{
+    "name": "izhg.async.abstractions.netstd21",
+    "rootNamespace": "IziHardGames.Async.Abstractions.NetStd21",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

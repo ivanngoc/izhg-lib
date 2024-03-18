@@ -1,0 +1,17 @@
+{
+  "name": "izhg.ecs.examples",
+  "izhg_semantic_name": "",
+  "izhg_guid": "0d716182-228e-4151-adfd-983d58222c58",
+  "izhg_guid_database": "00000000-0000-0000-0000-000000000000",
+  "rootNamespace": "IziHardGames",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

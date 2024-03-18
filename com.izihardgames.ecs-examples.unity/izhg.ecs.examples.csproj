@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.ecs.examples</ProjectName>
+    <ProjectGuid>09b589bc-db84-4d13-b6c1-ca430a8b64f8</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Unity.Collections">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Graphics">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Entities.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Entities.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Physics">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Physics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+{
+    "name": "IziHardGames.Libs.Engine.LevelDesign.Tilemapping.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:69a0d6dfa4cb64944b305dd367bfabdd",
+        "GUID:ef03778c622deb94189604e6e7c13f1a",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:654904184ada75044a8fd13e3dbf1973"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

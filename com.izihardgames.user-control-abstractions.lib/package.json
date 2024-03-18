@@ -1,0 +1,30 @@
+{
+  "name": "izhg.user-control.abstractions.csproj",
+  "version": "1.0.0",
+  "displayName": "izhg.user-control.abstractions.csproj",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "user-control",
+    "abstractions",
+    "input-system"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {
+    "izhg.app.abstractions.csproj": "1.0.0",
+    "com.unity.physics": "1.0.16",
+    "com.unity.entities": "1.0.16",
+    "com.unity.collections": "2.1.4"
+  },
+  "guid": "5b1e9adf-7052-bea4-3ae3-1152a8980c08",
+  "rootNamespace": "IziHardGames"
+}

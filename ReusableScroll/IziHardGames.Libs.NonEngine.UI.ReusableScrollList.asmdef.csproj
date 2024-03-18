@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.NonEngine.UI.ReusableScrollList.asmdef</ProjectName>
+    <ProjectGuid>a9728d85-ac66-4f77-902d-72d19946911f</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.collections.pack\Collections\izhg.collections.unsorted.netstd21.csproj">
+      <Guid>0f749f48-6ecc-456c-b362-c643ad522253</Guid>
+      <ProjectName>izhg.collections.unsorted.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+      <UnityAsmdefGuid>7f7ec0b9624ff044dab5764a2199b064</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\com.izihardgames.math.float.netstd21\izhg.math.float.netstd21.csproj">
+      <Guid>d31068ba-1184-4e5d-a7d1-b5676786edaa</Guid>
+      <ProjectName>izhg.math.float.netstd21</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Rectangles\IziHardGames.Libs.NonEngine.Rectangles.asmdef.csproj">
+      <Guid>7d75ecd1-2003-4d2d-bd88-683ef6918c14</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.Rectangles.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Vectors (0)\IziHardGames.Libs.NonEngine.Vectors.asmdef.csproj">
+      <Guid>784d81a3-9036-4f29-a2b2-361cd23e6db3</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.Vectors.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

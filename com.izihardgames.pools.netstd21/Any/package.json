@@ -1,0 +1,25 @@
+{
+  "name": "izhg.pools.netstd21.asmdef",
+  "version": "1.0.0",
+  "displayName": "izhg.pools.netstd21.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "c986e801eb524734486198033062ee75",
+  "guid": "ba5f1fb9-f524-7c14-0a4f-aafcfe539261",
+  "rootNamespace": "IziHardGames"
+}

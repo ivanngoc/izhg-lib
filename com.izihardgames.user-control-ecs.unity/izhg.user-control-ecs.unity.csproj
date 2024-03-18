@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.user-control-ecs.unity</ProjectName>
+    <ProjectGuid>17CFCCD3-EAD3-4ABC-A6E3-06BC0D5EE1CD</ProjectGuid>
+    <RootNamespace>IziHardGames.UserControl.ForUnity.ForEcs</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description></Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.app.abstractions.netstd21\Any\izhg.apps.abstractions.netstd21.csproj" />
+    <ProjectReference Include="..\com.izihardgames.app.abstractions.unity\Any\izhg.apps.abstractions.unity.csproj" />
+    <ProjectReference Include="..\com.izihardgames.app.netstd21\Runtime\izhg.apps.netstd21.csproj" />
+    <ProjectReference Include="..\com.izihardgames.attributes.netstd21\izhg.attributes.csproj" />
+    <ProjectReference Include="..\com.izihardgames.user-control-abstractions.lib\Any\izhg.user-control.abstractions.netstd21.csproj" />
+    <ProjectReference Include="..\com.izihardgames.user-control.unity\Any\izhg.user-control.unity.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Unity.Collections">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Graphics">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Entities.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Physics">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Physics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\Unity.Transforms.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

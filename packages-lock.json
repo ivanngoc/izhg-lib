@@ -1,0 +1,1206 @@
+{
+  "dependencies": {
+    "com.unity.burst": {
+      "version": "1.8.11",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.collections": {
+      "version": "2.1.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.8.4",
+        "com.unity.modules.unityanalytics": "1.0.0",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.entities": {
+      "version": "1.0.16",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.8.8",
+        "com.unity.serialization": "3.1.1",
+        "com.unity.collections": "2.1.4",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.test-framework.performance": "3.0.2",
+        "com.unity.nuget.mono-cecil": "1.11.4",
+        "com.unity.scriptablebuildpipeline": "1.20.2",
+        "com.unity.profiling.core": "1.0.2"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.entities.graphics": {
+      "version": "1.0.16",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.entities": "1.0.16",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.unity.render-pipelines.core": "14.0.7"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ext.nunit": {
+      "version": "1.0.6",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ide.rider": {
+      "version": "3.0.26",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.6"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ide.visualstudio": {
+      "version": "2.0.22",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.9"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ide.vscode": {
+      "version": "1.2.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.7.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.mathematics": {
+      "version": "1.2.6",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.11.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.profiling.core": {
+      "version": "1.0.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.render-pipelines.core": {
+      "version": "14.0.9",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.render-pipelines.universal": {
+      "version": "14.0.9",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.burst": "1.8.9",
+        "com.unity.render-pipelines.core": "14.0.9",
+        "com.unity.shadergraph": "14.0.9"
+      }
+    },
+    "com.unity.scriptablebuildpipeline": {
+      "version": "1.21.20",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.searcher": {
+      "version": "4.9.2",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.serialization": {
+      "version": "3.1.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.collections": "2.1.4",
+        "com.unity.burst": "1.7.2"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.shadergraph": {
+      "version": "14.0.9",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.9",
+        "com.unity.searcher": "4.9.2"
+      }
+    },
+    "com.unity.test-framework": {
+      "version": "1.1.33",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.6",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.test-framework.performance": {
+      "version": "3.0.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ugui": {
+      "version": "1.0.0",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "izhg.app-ecs.unity.test.csproj": {
+      "version": "file:com.izihardgames.app-ecs.unity.test",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.apps-game.abstractions.unity.asmdef": {
+      "version": "file:com.izihardgames.app-game-abstractions.unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.attributes.netstd21.asmdef": {
+      "version": "file:com.izihardgames.attributes.netstd21",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.buffers.unity.asmdef": {
+      "version": "file:com.izihardgames.buffers.unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.collections.pack.asmdef": {
+      "version": "file:com.izihardgames.collections.pack",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.extensions.unity.csproj": {
+      "version": "file:com.izihardgames.extensions.unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.interactions.pack.asmdef": {
+      "version": "file:com.izihardgames.interaction.pack",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.libs.nonengine.managers.abstractions.asmdef": {
+      "version": "file:Managers.Abstractions",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.libs.nonengine.managers.asmdef": {
+      "version": "file:Managers (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.pools.abstractions.csproj": {
+      "version": "file:com.izihardgames.pools.abstractions",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.pools.netstd21.csproj": {
+      "version": "file:com.izihardgames.pools.netstd21",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.ticking.abstractions.netstd21.csproj": {
+      "version": "file:com.izihardgames.ticking-abstractions.lib",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.ticking.netstd21.csproj": {
+      "version": "file:com.izihardgames.ticking.lib",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.ticking.unity.csproj": {
+      "version": "file:com.izihardgames.ticking.unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izhg.ui-classic.unity.csproj": {
+      "version": "file:com.izihardgames.ui-classic.unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgaems.libs.engine.editor.asmdef": {
+      "version": "file:Editor (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.editor.asmdef": {
+      "version": "file:Editor",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engin.math.trigonometry.asmdef": {
+      "version": "file:Trigonometry",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.animations.asmdef": {
+      "version": "file:Animations",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.assetsutils.asmdef": {
+      "version": "file:AssetsUtils",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.components.nonmono.asmdef": {
+      "version": "file:NonMono",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.consoles.asmdef": {
+      "version": "file:Console",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.core.asmdef": {
+      "version": "file:Core",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.customtypes.asmdef": {
+      "version": "file:CustomTypes",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.customtypes.extensions.asmdef": {
+      "version": "file:Extensions based on Custom Types",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.display.asmdef": {
+      "version": "file:Display",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.gameevents.asmdef": {
+      "version": "file:GameEvents",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.geometry.asmdef": {
+      "version": "file:Geometry",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.geometry.processingvertex.asmdef": {
+      "version": "file:Processing Vertex",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.graph.pathfinding.asmdef": {
+      "version": "file:PathFinding",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.graphs.asmdef": {
+      "version": "file:Graphs",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.handbooksworkflow.asmdef": {
+      "version": "file:Handbooks Workflow",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.helpers.asmdef": {
+      "version": "file:Helpers",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.indicatorforprogress.asmdef": {
+      "version": "file:IndicatorForProgress",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.leveldesign.tilemapping.asmdef": {
+      "version": "file:TileMap",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.leveldesign.tilemapping.editor.asmdef": {
+      "version": "file:Editor (1)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.managers.asmdef": {
+      "version": "file:Managers",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.math.asmdef": {
+      "version": "file:Math",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.math.interpolations.asmdef": {
+      "version": "file:Interpolations",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.memory.asmdef": {
+      "version": "file:Memory",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.movepatterns.asmdef": {
+      "version": "file:Move Patterns",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.parallelandasync.asmdef": {
+      "version": "file:Non Linear Execution",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.perframedistribution.asmdef": {
+      "version": "file:Per Frame Distribution",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.positioningsystem.2d.asmdef": {
+      "version": "file:2D",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.positioningsystem.asmdef": {
+      "version": "file:Positioning System",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.processing.asmdef": {
+      "version": "file:Processing",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.randomandshuffle.asmdef": {
+      "version": "file:RandomAndShuffle",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.rendering.asmdef": {
+      "version": "file:Rendering",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.rendering.spritefill.asmdef": {
+      "version": "file:SpriteFill",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.resourcesmanagment.asmdef": {
+      "version": "file:Resources Managment",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.savingsystem.asmdef": {
+      "version": "file:SavingSystem",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.scenarioplaying.asmdef": {
+      "version": "file:Scenario Player",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.scenarioworkflow.actions.asmdef": {
+      "version": "file:MonoActions",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.serilizablewraps.asmdef": {
+      "version": "file:Serilizable Wraps",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.spacemap.asmdef": {
+      "version": "file:SpaceMap (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.spacemap.quadmap.asmdef": {
+      "version": "file:QuadMap",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.statemachines.asmdef": {
+      "version": "file:StateMachine",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.storages.asmdef": {
+      "version": "file:Storages",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.synchronization.asmdef": {
+      "version": "file:Synchronization",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.tilegrid.asmdef": {
+      "version": "file:CustomTileGrid",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.tilemapping.asmdef": {
+      "version": "file:Tilemap (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.trajectorymoving.asmdef": {
+      "version": "file:Trajectory Moving",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.unitsbehaviour.asmdef": {
+      "version": "file:UnitsBehaviour",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.vectors.asmdef": {
+      "version": "file:Vectors",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.engine.view.asmdef": {
+      "version": "file:View",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.enginge.vfx.asmdef": {
+      "version": "file:VFX",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.buffers.asmdef": {
+      "version": "file:com.izihardgames.buffers.netstd21",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.concurrency.asmdef": {
+      "version": "file:com.izihardgames.concurrency.netstd21",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.conditionaloperation.asmdef": {
+      "version": "file:Conditional Operation",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.conditionaltriggering.asmdef": {
+      "version": "file:ConditionalTriggering",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.consoles.asmdef": {
+      "version": "file:Console (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.dotnetinternals.asmdef": {
+      "version": "file:DotNetInternals",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.extensions.asmdef": {
+      "version": "file:com.izihardgames.extensions.netstd21",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.gamelogic.checkpointsystem.asmdef": {
+      "version": "file:CkeckPointSystem",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.gameplay.asmdef": {
+      "version": "file:Gameplay",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.geometry.2d.asmdef": {
+      "version": "file:2D (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.graph.quadtile.asmdef": {
+      "version": "file:Quad Tile Graph",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.graphs.asmdef": {
+      "version": "file:Graphs (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.helpers.asmdef": {
+      "version": "file:com.izihardgames.helpers-primitive-types.netstd21",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.input.asmdef": {
+      "version": "file:Input",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.io.asmdef": {
+      "version": "file:IO",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.logging.asmdef": {
+      "version": "file:Logging",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.mathfloat.asmdef": {
+      "version": "file:com.izihardgames.math.float.netstd21",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.mathtrigonometry.asmdef": {
+      "version": "file:MathTrigonometry",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.processing.asmdef": {
+      "version": "file:Processing (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.projectiontools.asmdef": {
+      "version": "file:Scripts",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.query.asmdef": {
+      "version": "file:Query",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.randomandshuffle.asmdef": {
+      "version": "file:RandowAndShuffle",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.rectangles.asmdef": {
+      "version": "file:Rectangles",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.reflection.asmdef": {
+      "version": "file:Reflection",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.saveobject.asmdef": {
+      "version": "file:SaveObject",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.saveobject.editor.asmdef": {
+      "version": "file:Editor (3)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.scenarioplaying.asmdef": {
+      "version": "file:Scenario Player (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.scheming.asmdef": {
+      "version": "file:Schema",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.sorting.asmdef": {
+      "version": "file:com.izihardgames.sorting.netstd21",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.spacemap.asmdef": {
+      "version": "file:SpaceMap",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.statemachines.asmdef": {
+      "version": "file:StateMachine (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.storages.asmdef": {
+      "version": "file:Storages (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.string.asmdef": {
+      "version": "file:String",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.synchronization.asmdef": {
+      "version": "file:Synchronization (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.threading.asmdef": {
+      "version": "file:Threading",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.threading.async.asmdef": {
+      "version": "file:Aysnc",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.threading.tasks.asmdef": {
+      "version": "file:Tasks",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.ui.asmdef": {
+      "version": "file:UI",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.ui.reusablescrolllist.asmdef": {
+      "version": "file:ReusableScroll",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.vectors.asmdef": {
+      "version": "file:Vectors (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonengine.view.asmdef": {
+      "version": "file:View (0)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.nonenginge.events.asmdef": {
+      "version": "file:Events",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.serilizationtypes.asmdef": {
+      "version": "file:Types For Serilization",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.libs.unsorted.asmdef": {
+      "version": "file:Libs",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.nonengine.mapping.mapping2d.asmdef": {
+      "version": "file:Mapping2D",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.patterns.viewupdateonchange.asmdef": {
+      "version": "file:ViewUpdateOnChange",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.projectmanagment.build.asmdef": {
+      "version": "file:Project Managment Build",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "izihardgames.projectmanagment.build.editor.asmdef": {
+      "version": "file:Editor (2)",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_1": {
+      "version": "file:com.izihardgames.app-dots-abstractions.lib",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_14": {
+      "version": "file:com.izihardgames.async-abstractions.netstd21",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_15": {
+      "version": "file:com.izihardgames.async.unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_17": {
+      "version": "file:com.izihardgames.izimanager-abstractions.lib",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_20": {
+      "version": "file:com.izihardgames.resource-management-abstracts.lib",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_21": {
+      "version": "file:com.izihardgames.spawning.pack",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_22": {
+      "version": "file:com.izihardgames.tasking.async.netstd21",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_27": {
+      "version": "file:com.izihardgames.ui-toolkit.unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_5": {
+      "version": "file:com.izihardgames.app-game-abstractions.lib",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_6": {
+      "version": "file:com.izihardgames.app-game-client.unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_7": {
+      "version": "file:com.izihardgames.app-game.lib",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_8": {
+      "version": "file:com.izihardgames.app-game.unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "no_asm_def_9": {
+      "version": "file:com.izihardgames.app-scenes.unity",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.unity.modules.ai": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.androidjni": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.animation": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.assetbundle": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.audio": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.cloth": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "com.unity.modules.director": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "com.unity.modules.imageconversion": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.imgui": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.jsonserialize": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.particlesystem": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.physics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.physics2d": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.screencapture": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.subsystems": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.modules.terrain": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.terrainphysics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0"
+      }
+    },
+    "com.unity.modules.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics2d": "1.0.0"
+      }
+    },
+    "com.unity.modules.ui": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.uielements": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.modules.umbra": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.unityanalytics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequest": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.unitywebrequestassetbundle": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequestaudio": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.audio": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequesttexture": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequestwww": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.vehicles": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "com.unity.modules.video": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
+    },
+    "com.unity.modules.vr": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      }
+    },
+    "com.unity.modules.wind": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.xr": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.subsystems": "1.0.0"
+      }
+    }
+  }
+}

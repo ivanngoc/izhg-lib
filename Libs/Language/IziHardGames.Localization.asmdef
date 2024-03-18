@@ -1,0 +1,16 @@
+{
+    "name": "IziHardGames.Localization",
+    "rootNamespace": "",
+    "references": [
+        "GUID:56da0e9a145de8848b71d29151c7ae34"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

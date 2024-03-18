@@ -1,0 +1,16 @@
+{
+    "name": "IziHardGames.Libs.Engine.AssetsUtils",
+    "rootNamespace": "",
+    "references": [
+        "GUID:92d345856c2e15c4bbc581ff95c85725"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/izhg.user-control.unity.csproj/Any/Editor/DataInputDebugForm.uss?fileID=7433441132597879392&amp;guid=915c5a3e1ccfe274cb306f0d0d504007&amp;type=3#DataInputDebugForm" />
+    <ui:IntegerField label="Instances" value="42" binding-path="instances" />
+    <ui:Vector3Field label="MousePos" name="MousePos" binding-path="MousePos" />
+    <ui:Vector3Field label="PointerScreenToWorldDirection" name="PointerScreenToWorldDirection" binding-path="PointerScreenToWorldDirection" />
+</ui:UXML>

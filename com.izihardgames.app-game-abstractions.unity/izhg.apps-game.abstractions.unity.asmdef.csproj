@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.apps-game.abstractions.unity.asmdef</ProjectName>
+    <ProjectGuid>64c1a2e8-b7c1-4653-97f3-bc870f9ac860</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.app-game-abstractions.lib\Any\izhg.apps-game.abstractions.lib.asmdef.csproj">
+      <Guid>93050798-36b6-4e6a-8aac-fa03f4343941</Guid>
+      <ProjectName>izhg.apps-game.abstractions.lib.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+      <UnityAsmdefGuid>fd0ae01c227f0f04c891fb355acc662e</UnityAsmdefGuid>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

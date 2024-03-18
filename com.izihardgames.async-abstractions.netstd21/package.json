@@ -1,0 +1,24 @@
+{
+  "name": "no_asm_def_14",
+  "version": "1.0.0",
+  "displayName": "no_asm_def_14",
+  "description": "Async abstractions",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "async",
+    "nonengine",
+    "netstd21"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "guid": "490d98f3-41a0-8044-d8dd-ac2593384938",
+  "rootNamespace": "IziHardGames"
+}

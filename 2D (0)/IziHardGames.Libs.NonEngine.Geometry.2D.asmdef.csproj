@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.NonEngine.Geometry.2D.asmdef</ProjectName>
+    <ProjectGuid>0f137d94-6eab-4a7b-bb3b-3b2ed30f38ac</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Types For Serilization\IziHardGames.Libs.SerilizationTypes.asmdef.csproj">
+      <Guid>64795880-e39c-4b16-85d8-ad7406abea3f</Guid>
+      <ProjectName>IziHardGames.Libs.SerilizationTypes.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:07</IziTag>
+      <UnityAsmdefGuid>60e3ff668576f3a4a98d82b4dd6ae2e7</UnityAsmdefGuid>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

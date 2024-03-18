@@ -1,0 +1,33 @@
+{
+  "name": "izhg.user-control.netstd21.csproj",
+  "version": "1.0.0",
+  "displayName": "izhg.user-control.netstd21.csproj",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "user-control",
+    "input-system"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {
+    "izhg.app.abstractions.csproj": "1.0.0",
+    "izhg.user-control.abstractions.csproj": "1.0.0",
+    "izihardgames.libs.nonengine.input.asmdef": "1.0.0",
+    "izihardgames.libs.nonengine.ui.asmdef": "1.0.0",
+    "izhg.collections.pack.asmdef": "1.0.0",
+    "izihardgames.libs.nonengine.logging.asmdef": "1.0.0",
+    "izihardgames.libs.nonengine.sorting.asmdef": "1.0.0",
+    "izihardgames.libs.nonengine.concurrency.asmdef": "1.0.0"
+  },
+  "guid": "d98f2d8b-c93d-9fd4-99fb-57fdb68876c9",
+  "rootNamespace": "IziHardGames"
+}

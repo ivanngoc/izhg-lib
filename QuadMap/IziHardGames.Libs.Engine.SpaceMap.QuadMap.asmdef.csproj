@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.Engine.SpaceMap.QuadMap.asmdef</ProjectName>
+    <ProjectGuid>c2a5c859-db21-49c3-b7a7-bdbdc96f0180</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mapping2D\IziHardGames.NonEngine.Mapping.Mapping2D.asmdef.csproj">
+      <Guid>563409f8-e52f-433c-87f4-1477e20fe259</Guid>
+      <ProjectName>IziHardGames.NonEngine.Mapping.Mapping2D.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+      <UnityAsmdefGuid>e053ec9db6762374f80eb03b8a1b4ca2</UnityAsmdefGuid>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

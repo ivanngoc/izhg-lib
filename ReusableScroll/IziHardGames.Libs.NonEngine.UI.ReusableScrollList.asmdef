@@ -1,0 +1,19 @@
+{
+    "name": "IziHardGames.Libs.NonEngine.UI.ReusableScrollList",
+    "rootNamespace": "",
+    "references": [
+        "GUID:26521bfc7f0d059458e916a94547a41f",
+        "GUID:8c3bc8be546fb6d46945f1d3f64f53df",
+        "GUID:22dde0b189c60c84cbb13b33cc48bac6",
+        "GUID:7f7ec0b9624ff044dab5764a2199b064"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

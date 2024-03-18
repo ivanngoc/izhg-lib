@@ -1,0 +1,16 @@
+{
+    "name": "IziHardGames.Libs.SerilizationTypes",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a93563bf1e59a864dac40e4734a096cc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,25 @@
+{
+    "name": "IziHardGames.Libs.Engine.Helpers",
+    "rootNamespace": "IziHardGames.Libs.Engine.Helpers",
+    "references": [
+        "GUID:654904184ada75044a8fd13e3dbf1973",
+        "GUID:e5dafb6bbd1d44c428b77bc1e9205e3c",
+        "GUID:998c3e61e558bf74090e16e2737cfe0c",
+        "GUID:5e9ce44ee77c39c49919a657a1381a40",
+        "GUID:7b604291313207b4f93e7922f82b1f33",
+        "GUID:93197c4a82ed74840ac11c8ab3c5b7df",
+        "GUID:a30a9db39c6f2f749a2a1241914b8f45",
+        "GUID:37b1478036239c14497e5062e8253bdd",
+        "GUID:388d4836110ba784bae16549263575f5",
+        "GUID:ef03778c622deb94189604e6e7c13f1a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

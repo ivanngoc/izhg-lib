@@ -1,0 +1,25 @@
+{
+  "name": "izhg.user-control-game-2d-avatar.unity.asmdef",
+  "version": "1.0.0",
+  "displayName": "izhg.user-control-game-2d-avatar.unity.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "0ec521fae60e983449507c7b136f17d1",
+  "guid": "36884fe2-7f33-1c44-2ba6-6b4ea93ec8e5",
+  "rootNamespace": "IziHardGames"
+}

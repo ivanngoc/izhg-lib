@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.Engine.SpaceMap.asmdef</ProjectName>
+    <ProjectGuid>cf854f1e-38c4-4286-8a3e-dce16acc4f8c</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.extensions.unity\Any\IziHardGames.Libs.Engine.Extensions.asmdef.csproj">
+      <Guid>4c31f516-8713-47c8-9f75-adac4bed6497</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.Extensions.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+      <UnityAsmdefGuid>52b95b85a5592914a8f61d75bfea208e</UnityAsmdefGuid>
+    </ProjectReference>
+    <ProjectReference Include="..\Rectangles\IziHardGames.Libs.NonEngine.Rectangles.asmdef.csproj">
+      <Guid>7d75ecd1-2003-4d2d-bd88-683ef6918c14</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.Rectangles.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\SpaceMap\IziHardGames.Libs.NonEngine.SpaceMap.asmdef.csproj">
+      <Guid>fcb5f143-386a-475f-9463-91c15736d211</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.SpaceMap.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Vectors (0)\IziHardGames.Libs.NonEngine.Vectors.asmdef.csproj">
+      <Guid>784d81a3-9036-4f29-a2b2-361cd23e6db3</Guid>
+      <ProjectName>IziHardGames.Libs.NonEngine.Vectors.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+    <ProjectReference Include="..\Vectors\IziHardGames.Libs.Engine.Vectors.asmdef.csproj">
+      <Guid>fd7ca9da-2b1e-4226-bdad-8fd084adc754</Guid>
+      <ProjectName>IziHardGames.Libs.Engine.Vectors.asmdef</ProjectName>
+      <IziTag>28-Nov-23 02:31:09</IziTag>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

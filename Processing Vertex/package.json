@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.engine.geometry.processingvertex.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.engine.geometry.processingvertex.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "f0af73113fdcc194f95f6676917b5dcf",
+  "guid": "509b2f48-9a53-5a44-f9eb-443533d4b0b9",
+  "rootNamespace": "IziHardGames"
+}

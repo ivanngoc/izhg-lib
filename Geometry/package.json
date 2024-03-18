@@ -1,0 +1,25 @@
+{
+  "name": "izihardgames.libs.engine.geometry.asmdef",
+  "version": "1.0.0",
+  "displayName": "izihardgames.libs.engine.geometry.asmdef",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": "9cb9152c9c2a51147a77ba9dc32c1d72",
+  "guid": "0483c3ff-e832-2e64-f96b-e7c076681e31",
+  "rootNamespace": "IziHardGames"
+}

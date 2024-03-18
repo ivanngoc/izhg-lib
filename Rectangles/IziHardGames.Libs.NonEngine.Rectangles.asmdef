@@ -1,0 +1,17 @@
+{
+    "name": "IziHardGames.Libs.NonEngine.Rectangles",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8c3bc8be546fb6d46945f1d3f64f53df",
+        "GUID:17da5201ec6895644851c5c015633f4e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

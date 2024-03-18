@@ -1,0 +1,14 @@
+{
+    "name": "izhg.Resource-Management.Abstractions.lib",
+    "rootNamespace": "IziHardGames.ResourceManagement.Abstractions.Lib",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

@@ -1,0 +1,21 @@
+{
+    "name": "IziHardGames.Libs.Unsorted",
+    "rootNamespace": "",
+    "references": [
+        "GUID:93197c4a82ed74840ac11c8ab3c5b7df",
+        "GUID:e5dafb6bbd1d44c428b77bc1e9205e3c",
+        "GUID:a30a9db39c6f2f749a2a1241914b8f45",
+        "GUID:654904184ada75044a8fd13e3dbf1973",
+        "GUID:998c3e61e558bf74090e16e2737cfe0c",
+        "GUID:7b604291313207b4f93e7922f82b1f33"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

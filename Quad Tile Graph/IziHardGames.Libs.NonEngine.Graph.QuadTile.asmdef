@@ -1,0 +1,21 @@
+{
+    "name": "IziHardGames.Libs.NonEngine.Graph.QuadTile",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e053ec9db6762374f80eb03b8a1b4ca2",
+        "GUID:60e3ff668576f3a4a98d82b4dd6ae2e7",
+        "GUID:e5dafb6bbd1d44c428b77bc1e9205e3c",
+        "GUID:c986e801eb524734486198033062ee75",
+        "GUID:fad2db413a1e7514e8728766b7705f82",
+        "GUID:a93563bf1e59a864dac40e4734a096cc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}
