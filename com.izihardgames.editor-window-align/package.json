@@ -1,14 +1,13 @@
 {
-  "name": "izhg.izihardgames.izihardgames.unity-editor.abstractions",
+  "name": "izihardgames.libs.unityeditor.windows.uialign.asmdef",
   "version": "1.0.0",
-  "displayName": "izhg.unity-editor.abstractions",
+  "displayName": "izhg.unity-editor-windows-align",
   "description": "This is an example package",
   "unity": "2022.3",
   "unityRelease": "12f1",
   "documentationUrl": "https://example.com/",
   "changelogUrl": "https://example.com/changelog.html",
   "licensesUrl": "https://example.com/licensing.html",
-  "guid": "e62a759b-b65e-4b36-abe0-7cb1c9ec5b6d",
   "keywords": [
     "nonengine",
     "app",
@@ -19,5 +18,7 @@
     "email": "tna.work10@gmail.com",
     "url": "https://www.unity3d.com"
   },
-  "asmdefGuid": ""
+  "asmdefGuid": "0e6747f8961790a4d9e703c70b185efa",
+  "guid": "2b5fd0eb-1fe7-5174-5bfd-2064428c6d46",
+  "rootNamespace": "IziHardGames"
 }

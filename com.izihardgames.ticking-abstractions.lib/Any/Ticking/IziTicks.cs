@@ -20,6 +20,7 @@ namespace IziHardGames.Libs.NonEngine.Game.Abstractions
         [UpdateOrder(2)] public static TickChannel? Fixed { get; set; }
         [UpdateOrder(3)] public static TickChannel? Normal { get; set; }
         [UpdateOrder(4)] public static TickChannel? Late { get; set; }
+
         /// <summary>
         /// <see cref="IziHardGames.Ticking.Abstractions.Lib.EPriority.ResetLoop"/>
         /// </summary>

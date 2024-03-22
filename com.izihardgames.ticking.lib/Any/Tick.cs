@@ -11,7 +11,7 @@ namespace IziHardGames.Ticking.Abstractions.Lib
         {
             throw new System.NotImplementedException();
         }
-        public override int Enable(Action handler)
+        public override int Enable(string key, Action handler)
         {
             TickNodeSingle node = new TickNodeSingle();
             node.BindHandler(handler);

@@ -74,18 +74,18 @@ namespace IziHardGames.UserControl.ForUnity
             collector = app.GetSingleton<IInputCollector>();
             iziInputSystem = app.GetSingleton<IziInputSystem>();
 
-            this.tokenNormalInput = IziTicks.Normal!.Enable(collector.CollectAtNormalUpdate);
+            this.tokenNormalInput = IziTicks.Normal!.Enable("TICK_KEY:IInputCollector.CollectAtNormalUpdate()", collector.CollectAtNormalUpdate);
 
-            this.envNormal1 = IziTicks.Normal.Enable(environment!.CollectInfo);
-            this.envNormal2 = IziTicks.Normal.Enable(environment.InternalCalculation);
-            this.envNormal3 = IziTicks.Normal.Enable(environment.ShareInternalCalculation);
-            this.envNormal4 = IziTicks.Normal.Enable(environment.Filter);
-            this.envNormal5 = IziTicks.Normal.Enable(environment.Execute);
-            this.envNormal6 = IziTicks.Normal.Enable(actionUsersLoop);
+            this.envNormal1 = IziTicks.Normal.Enable("TICK_KEY:environment.CollectInfo()", environment!.CollectInfo);
+            this.envNormal2 = IziTicks.Normal.Enable("TICK_KEY:environment.InternalCalculation()", environment.InternalCalculation);
+            this.envNormal3 = IziTicks.Normal.Enable("TICK_KEY:environment.ShareInternalCalculation()", environment.ShareInternalCalculation);
+            this.envNormal4 = IziTicks.Normal.Enable("TICK_KEY:environment.Filter()", environment.Filter);
+            this.envNormal5 = IziTicks.Normal.Enable("TICK_KEY:environment.Execute()", environment.Execute);
+            this.envNormal6 = IziTicks.Normal.Enable("TICK_KEY:UserControlMonoService.actionUsersLoop", actionUsersLoop);
 
-            this.tokenFixedInput = IziTicks.Fixed!.Enable(collector.CollectAtFixedUpdate);
-            this.tokenResetInput = IziTicks.Reset!.Enable(collector.ResetForNextLoop);
-            this.envReset = IziTicks.Reset.Enable(environment.Clean);
+            this.tokenFixedInput = IziTicks.Fixed!.Enable("TICK_KEY:collector.CollectAtFixedUpdate()", collector.CollectAtFixedUpdate);
+            this.tokenResetInput = IziTicks.Reset!.Enable("TICK_KEY:collector.ResetForNextLoop()", collector.ResetForNextLoop);
+            this.envReset = IziTicks.Reset.Enable("TICK_KEY:environment.Clean()", environment.Clean);
         }
 
         private void ValidateCamera()

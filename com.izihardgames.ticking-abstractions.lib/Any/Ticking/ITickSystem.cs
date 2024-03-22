@@ -4,10 +4,10 @@ using IziHardGames.Core;
 
 namespace IziHardGames.Libs.NonEngine.Game.Abstractions
 {
-	/// <summary>
-	/// Или Update System
-	/// </summary>
-	public interface ITickSystem
+    /// <summary>
+    /// Или Update System
+    /// </summary>
+    public interface ITickSystem
     {
 
     }
@@ -15,7 +15,7 @@ namespace IziHardGames.Libs.NonEngine.Game.Abstractions
     public abstract class TickChannel : ITickChannel
     {
         public abstract void Regist(Action action);
-        public abstract int Enable(Action handler);
+        public abstract int Enable(string key, Action handler);
         public abstract void Disable(int token);
         public abstract void ExecuteSync();
     }
@@ -39,7 +39,7 @@ namespace IziHardGames.Libs.NonEngine.Game.Abstractions
         /// <param name="channel"></param>
         /// <param name="exe"></param>
         /// <exception cref="System.NotImplementedException"></exception>
-        public void ThisFrame<T>(TickChannel channel, T exe) where T : IExecutable 
+        public void ThisFrame<T>(TickChannel channel, T exe) where T : IExecutable
         {
             throw new System.NotImplementedException();
         }

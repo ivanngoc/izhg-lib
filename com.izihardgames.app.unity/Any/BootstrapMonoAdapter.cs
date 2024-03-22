@@ -15,13 +15,17 @@ namespace IziHardGames.Apps.ForUnity
     public sealed class BootstrapMonoAdapter : MonoBehaviour
     {
         private IziApp? app;
-
+        [Header("Startup")]
         [SerializeField] private StartupMono? startup;
         [SerializeField] private ScriptableStartup? startupScriptable;
         [SerializeField] private StartupArguments? arguments;
+        [Header("Presets")]
+        [SerializeField] private ProjectPresets presets;
         [Space]
+        [Header("App")]
         [SerializeField] private AbstractAppFactory? factory;
         [Space]
+        [Header("Enter Point")]
         [SerializeField] private ScriptableEnterPoint? scriptableEnterPoint;
         [SerializeField] private AbstractUnityEnterPointMono? unityEnterPointMono;
         [Space]
@@ -72,7 +76,7 @@ namespace IziHardGames.Apps.ForUnity
 #if UNITY_EDITOR||DEBUG
                 Debug.Log("Startup funished", this);
 #endif
-                await app.StartAsync().ConfigureAwait(true); 
+                await app.StartAsync().ConfigureAwait(true);
 
                 if (scriptableEnterPoint != null)
                 {

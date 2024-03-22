@@ -1,5 +1,5 @@
 {
-    "name": "izhg.unity-editor.abstractions",
+    "name": "izhg.unity-editor.unity",
     "rootNamespace": "IziHardGames",
     "references": [],
     "includePlatforms": [

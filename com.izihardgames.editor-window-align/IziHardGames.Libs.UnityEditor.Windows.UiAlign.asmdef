@@ -1,0 +1,22 @@
+{
+    "name": "IziHardGames.Libs.UnityEditor.Windows.UiAlign",
+    "rootNamespace": "",
+    "references": [
+        "GUID:310c22d4f83bd3748923296f0b3a5cc3",
+        "GUID:654904184ada75044a8fd13e3dbf1973",
+        "GUID:998c3e61e558bf74090e16e2737cfe0c",
+        "GUID:9eefa938023c4898ba9e89e3b0ccaeb2",
+        "GUID:8b7f5fd375074445885d13d9047b0744"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

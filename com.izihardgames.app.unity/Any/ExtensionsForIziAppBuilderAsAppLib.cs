@@ -26,8 +26,8 @@ namespace IziHardGames.Apps.ForUnity
             IziInterval.providers[typeof(MonoIntervalProviderNormal)] = normal;
             IziInterval.providers[typeof(MonoIntervalProviderFixed)] = fix;
             IziInterval.SetDefault(normal);
-            IziTicks.Fixed!.Enable(normal.Execute);
-            IziTicks.Fixed.Enable(fix.Execute);
+            IziTicks.Normal!.Enable("TICK_KEY:MonoIntervalProviderNormal.Execute()", normal.Execute);
+            IziTicks.Fixed!.Enable("TICK_KEY:MonoIntervalProviderFixed.Execute()", fix.Execute);
 
             builder.AddSingleton(normal);
             builder.AddSingleton(fix);

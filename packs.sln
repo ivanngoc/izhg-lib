@@ -108,7 +108,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.ecs.unity.test", "com.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.dependency-injection", "com.izihardgames.dependency-injection.netstd21\izhg.dependency-injection.csproj", "{82675A3B-CB9B-4281-B906-368DBC3C27B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.eitor-cleanup", "com.izihardgames.eitor.cleanup.unity\izhg.eitor-cleanup.csproj", "{F6789D57-EB89-41D1-8A0D-B977BB63DF70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.editor-cleanup", "com.izihardgames.eitor.cleanup.unity\izhg.editor-cleanup.csproj", "{F6789D57-EB89-41D1-8A0D-B977BB63DF70}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.vfx.ecs", "com.izihardgames.vfx-ecs.unity\izhg.vfx.ecs.csproj", "{122606CA-B326-4D1F-8B63-1C06F014B0CF}"
 EndProject
@@ -117,6 +117,20 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.unity-editor", "com.izihardgames.unity-editor.abstractions\izhg.unity-editor.csproj", "{D8A05C02-3F1E-4F98-881B-73390768B4A3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.ecs.examples", "com.izihardgames.ecs-examples.unity\izhg.ecs.examples.csproj", "{09B589BC-DB84-4D13-B6C1-CA430A8B64F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ticking.updating-scheme", "com.izihardgames.ticking.updating-scheme.unity\ticking.updating-scheme.csproj", "{F42D06D3-1678-496C-9BB1-DC4637C5006B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ticking.updating-scheme.editor", "com.izihardgames.ticking.updating-scheme.unity\Editor\ticking.updating-scheme.editor.csproj", "{6462F5E7-7C73-41DA-A6F1-F6B64F554FC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.user-control-scheme.unity", "com.izihardgames.user-control-scheme.unity\izhg.user-control-scheme.unity.csproj", "{97CFE9BB-BC23-439B-BE56-3EFB34F9EC62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.ticking.editor.unity", "..\Users\ngoc\Documents\[Unity] Projects\GameProject4\Packages\com.izihardgames.ticking.unity\Editor\izhg.ticking.editor.unity.csproj", "{EC42DECD-682A-4E95-881D-51358E1039A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IziHardGames.Libs.UnityEditor.Windows.UiAlign.asmdef", "com.izihardgames.editor-window-align\IziHardGames.Libs.UnityEditor.Windows.UiAlign.asmdef.csproj", "{8C017C4B-46DF-4441-8347-B68ABE543994}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IziHardGames.Libs.Engine.CustomTypes.asmdef", "com.izihardgames.custom-types\IziHardGames.Libs.Engine.CustomTypes.asmdef.csproj", "{2097281A-9E62-48B4-B422-E8E78C848201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.unity-editor.unity", "com.izihardgames.unity-editor.unity\izhg.unity-editor.unity.csproj", "{66D429A8-9C6D-480E-BED4-520CBF58266C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -356,6 +370,34 @@ Global
 		{09B589BC-DB84-4D13-B6C1-CA430A8B64F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09B589BC-DB84-4D13-B6C1-CA430A8B64F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09B589BC-DB84-4D13-B6C1-CA430A8B64F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42D06D3-1678-496C-9BB1-DC4637C5006B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42D06D3-1678-496C-9BB1-DC4637C5006B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42D06D3-1678-496C-9BB1-DC4637C5006B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42D06D3-1678-496C-9BB1-DC4637C5006B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6462F5E7-7C73-41DA-A6F1-F6B64F554FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6462F5E7-7C73-41DA-A6F1-F6B64F554FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6462F5E7-7C73-41DA-A6F1-F6B64F554FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6462F5E7-7C73-41DA-A6F1-F6B64F554FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CFE9BB-BC23-439B-BE56-3EFB34F9EC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CFE9BB-BC23-439B-BE56-3EFB34F9EC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CFE9BB-BC23-439B-BE56-3EFB34F9EC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CFE9BB-BC23-439B-BE56-3EFB34F9EC62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC42DECD-682A-4E95-881D-51358E1039A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC42DECD-682A-4E95-881D-51358E1039A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC42DECD-682A-4E95-881D-51358E1039A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC42DECD-682A-4E95-881D-51358E1039A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C017C4B-46DF-4441-8347-B68ABE543994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C017C4B-46DF-4441-8347-B68ABE543994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C017C4B-46DF-4441-8347-B68ABE543994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C017C4B-46DF-4441-8347-B68ABE543994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2097281A-9E62-48B4-B422-E8E78C848201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2097281A-9E62-48B4-B422-E8E78C848201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2097281A-9E62-48B4-B422-E8E78C848201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2097281A-9E62-48B4-B422-E8E78C848201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D429A8-9C6D-480E-BED4-520CBF58266C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D429A8-9C6D-480E-BED4-520CBF58266C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D429A8-9C6D-480E-BED4-520CBF58266C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D429A8-9C6D-480E-BED4-520CBF58266C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
