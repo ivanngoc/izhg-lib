@@ -1,0 +1,24 @@
+{
+  "name": "user-control-scheme.unity",
+  "version": "1.0.0",
+  "displayName": "izhg.user-control-scheme.unity",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "guid": "841ddbeb-da06-4fe3-8d5c-5edfa6307c3d",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": ""
+}

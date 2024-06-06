@@ -1,0 +1,24 @@
+{
+  "guid": "7cdd31c7-7741-46b5-a451-5f08f9015a2a",
+  "csprojs": [
+    {
+      "guid": "480acba0-e43c-4992-9b73-0f7c5d3cc930",
+      "fileName": "izhg.camera.unity.csproj",
+      "pathRelative": "izhg.camera.unity.csproj"
+    }
+  ],
+  "asmdefs": [
+    {
+      "guid": "753871ed-f5c9-4929-969a-10880dc90835",
+      "fileName": "izhg.camera.unity.asmdef",
+      "pathRelative": "izhg.camera.unity.asmdef"
+    }
+  ],
+  "unitypacks": [
+    {
+      "guid": "3c001138-f92d-4574-b7a9-3d6e7931a041",
+      "fileName": "package.json",
+      "pathRelative": "package.json"
+    }
+  ]
+}

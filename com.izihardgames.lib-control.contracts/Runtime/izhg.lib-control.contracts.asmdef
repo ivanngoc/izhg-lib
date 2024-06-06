@@ -1,0 +1,17 @@
+{
+  "name": "izhg.lib-control.contracts",
+  "izhg_semantic_name": "",
+  "izhg_guid": "bfb41858-521e-47be-87cc-b1e149909fd1",
+  "izhg_guid_database": "00000000-0000-0000-0000-000000000000",
+  "rootNamespace": "IziHardGames",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

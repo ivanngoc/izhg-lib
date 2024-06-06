@@ -1,0 +1,26 @@
+{
+    "name": "izhg.Apps-Ecs.Unity",
+    "rootNamespace": "IziHardGames.Apps.ForEcs.ForUnity",
+    "references": [
+        "GUID:486da6e238f015b48993e93c686b285f",
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:2665a8d13d1b3f18800f46e256720795",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:63afb046c8423dd448ae7aba042ea63d",
+        "GUID:ceb8a6f2aa23c854392f8b8b40029b7f",
+        "GUID:25b1ca4ca1494778ac7f46b23d8944e2",
+        "GUID:12e8e39da0122a641ad584746a49f82c",
+        "GUID:40ccc1a2f87dcdf4c97f16506b5e2306",
+        "GUID:5c3674805d7ed12429a734f26d41de3a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

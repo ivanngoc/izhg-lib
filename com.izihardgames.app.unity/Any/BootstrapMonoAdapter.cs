@@ -20,7 +20,7 @@ namespace IziHardGames.Apps.ForUnity
         [SerializeField] private ScriptableStartup? startupScriptable;
         [SerializeField] private StartupArguments? arguments;
         [Header("Presets")]
-        [SerializeField] private ProjectPresets presets;
+        [SerializeField] private ProjectPresets? presets;
         [Space]
         [Header("App")]
         [SerializeField] private AbstractAppFactory? factory;
@@ -30,6 +30,8 @@ namespace IziHardGames.Apps.ForUnity
         [SerializeField] private AbstractUnityEnterPointMono? unityEnterPointMono;
         [Space]
         [SerializeField] private bool isAsyncStartup = true;
+
+        public ProjectPresets Presets => presets!;
 
         private async void Awake()
         {
@@ -77,7 +79,9 @@ namespace IziHardGames.Apps.ForUnity
                 Debug.Log("Startup funished", this);
 #endif
                 await app.StartAsync().ConfigureAwait(true);
-
+#if UNITY_EDITOR || DEBUG
+                Debug.Log("App Started Async", this);
+#endif
                 if (scriptableEnterPoint != null)
                 {
                     scriptableEnterPoint.Run();

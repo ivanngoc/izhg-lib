@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.ticking.editor.unity</ProjectName>
+    <ProjectGuid>ec42decd-682a-4e95-881d-51358e1039a2</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\.izhg-lib\com.izihardgames.unity-editor.abstractions\izhg.unity-editor.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEditor">
+      <HintPath>..\..\..\..\..\..\..\..\.izhg-dlls\Unity3d Dlls\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\..\.izhg-dlls\Unity3d Dlls\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\..\.izhg-dlls\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

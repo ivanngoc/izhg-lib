@@ -15,7 +15,7 @@ namespace IziHardGames.Apps.Games.Lib
 
         public virtual void Run()
         {
-            if (!IIziApp.IsStartupFinished) throw new InvalidOperationException($"IIziApp Startup in not finished! You must explicitly call {nameof(IStartup.FinishStartupGlobal)}");
+            if (!IIziAppVersion1.IsStartupFinished) throw new InvalidOperationException($"IIziApp Startup in not finished! You must explicitly call {nameof(IStartup.FinishStartupGlobal)}");
         }
 
         public abstract void Itterate();

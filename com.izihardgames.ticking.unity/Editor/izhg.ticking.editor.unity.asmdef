@@ -1,0 +1,18 @@
+{
+    "name": "izhg.ticking.editor.unity",
+    "rootNamespace": "IziHardGames",
+    "references": [
+        "GUID:9eefa938023c4898ba9e89e3b0ccaeb2"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -14,11 +14,25 @@ namespace IziHardGames.Apps.ForUnity
     {
         [SerializeField] private UnityEvent? unityEvent;
         [SerializeField] private bool isFinished;
+        [SerializeField] protected BootstrapMonoAdapter? bootstrapMono;
+
         private IziAppBuilder? builder;
 
+
+        #region Unity Message
+        protected virtual void OnValidate()
+        {
+            bootstrapMono = GetComponent<BootstrapMonoAdapter>();
+        }
+        protected virtual void Reset()
+        {
+
+        }
+        #endregion
         public virtual void StartSync(IziAppBuilder builder)
         {
             this.builder = builder;
+            InitilizePresets();
             IStartup.BeginStartupGlobal(this);
             CallInternalUses(builder as IIziAppBuilder);
         }
@@ -27,16 +41,13 @@ namespace IziHardGames.Apps.ForUnity
             StartSync(builder);
             return Task.CompletedTask;
         }
-        public virtual void FinishStartup(IIziApp app)
+        public virtual void FinishStartup(IIziAppVersion1 app)
         {
             unityEvent?.Invoke();
             isFinished = true;
         }
 
-        public virtual void Reset()
-        {
-
-        }
+        protected abstract void InitilizePresets();
 
         /// <summary>
         /// Without using links from another scenes.

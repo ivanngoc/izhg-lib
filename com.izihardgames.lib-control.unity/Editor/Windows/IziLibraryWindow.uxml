@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd">
+    <Style src="project://database/Packages/izhg.lib-control.unity/Editor/Windows/IziLibraryWindow.uss?fileID=7433441132597879392&amp;guid=529fb11eb6a75404f926d880165cefac&amp;type=3#IziLibraryWindow" />
+    <ui:Label text="Hello World! From UXML" />
+    <ui:Label text="Hello World! With Style" class="custom-label" />
+    <ui:TextField label="UXML Field" name="the-uxml-field" value="It&apos;s snowing outside." />
+</ui:UXML>

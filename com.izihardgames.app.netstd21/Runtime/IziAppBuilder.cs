@@ -81,7 +81,7 @@ namespace IziHardGames.Apps.NetStd21
             return singletons[type];
         }
 
-        public IziDynamicPromise<T> GetDynamicPromise<T>() where T : class
+        public IziBox<T> GetDynamicPromise<T>() where T : class
         {
             throw new NotImplementedException();
         }

@@ -76,7 +76,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.user-control.unity", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.ticking.abstractions.netstd21", "com.izihardgames.ticking-abstractions.lib\Any\izhg.ticking.abstractions.netstd21.csproj", "{5FE690D7-F683-43C7-85F1-4BC053E31FBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.ticking.unity.asmdef", "com.izihardgames.ticking.unity\Any\izhg.ticking.unity.asmdef.csproj", "{76F9583B-FD60-459D-8CA0-E1AD11110C19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.ticking.unity", "com.izihardgames.ticking.unity\Any\izhg.ticking.unity.csproj", "{76F9583B-FD60-459D-8CA0-E1AD11110C19}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.user-control.abstractions.netstd21", "com.izihardgames.user-control-abstractions.lib\Any\izhg.user-control.abstractions.netstd21.csproj", "{00834522-6EA1-4ACD-946C-1F49AEB30B81}"
 EndProject
@@ -131,6 +131,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IziHardGames.Libs.Engine.CustomTypes.asmdef", "com.izihardgames.custom-types\IziHardGames.Libs.Engine.CustomTypes.asmdef.csproj", "{2097281A-9E62-48B4-B422-E8E78C848201}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.unity-editor.unity", "com.izihardgames.unity-editor.unity\izhg.unity-editor.unity.csproj", "{66D429A8-9C6D-480E-BED4-520CBF58266C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.app-constructor.unity", "com.izihardgames.app-constructor.unity\izhg.app-constructor.unity.csproj", "{A439988C-49A5-466D-9BC7-5B8B63173781}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "izhg.camera.unity", "com.izihardgames.camera.unity\izhg.camera.unity.csproj", "{480ACBA0-E43C-4992-9B73-0F7C5D3CC930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -398,6 +402,14 @@ Global
 		{66D429A8-9C6D-480E-BED4-520CBF58266C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66D429A8-9C6D-480E-BED4-520CBF58266C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66D429A8-9C6D-480E-BED4-520CBF58266C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A439988C-49A5-466D-9BC7-5B8B63173781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A439988C-49A5-466D-9BC7-5B8B63173781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A439988C-49A5-466D-9BC7-5B8B63173781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A439988C-49A5-466D-9BC7-5B8B63173781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{480ACBA0-E43C-4992-9B73-0F7C5D3CC930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480ACBA0-E43C-4992-9B73-0F7C5D3CC930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480ACBA0-E43C-4992-9B73-0F7C5D3CC930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480ACBA0-E43C-4992-9B73-0F7C5D3CC930}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

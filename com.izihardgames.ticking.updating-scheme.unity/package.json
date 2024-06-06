@@ -1,0 +1,24 @@
+{
+  "name": "ticking.updating-scheme",
+  "version": "1.0.0",
+  "displayName": "izhg.ticking.updating-scheme",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "guid": "56adb4b0-d9ac-41df-a0ba-877d231f2d9a",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": ""
+}

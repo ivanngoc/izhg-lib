@@ -1,0 +1,23 @@
+{
+  "name": "izhg.editor-cleanup",
+  "version": "1.0.0",
+  "displayName": "izhg.unity-editor-cleanup",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "guid": "8628f379-94fa-45a5-9b12-6c6d25bcb960",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "asmdefGuid": ""
+}

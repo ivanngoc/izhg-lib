@@ -1,0 +1,16 @@
+{
+    "name": "user-control-scheme.unity",
+    "rootNamespace": "IziHardGames",
+    "references": [
+        "GUID:40ccc1a2f87dcdf4c97f16506b5e2306"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

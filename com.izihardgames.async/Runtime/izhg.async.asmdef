@@ -1,0 +1,17 @@
+{
+  "name": "izhg.async",
+  "izhg_semantic_name": "",
+  "izhg_guid": "de225e6d-08d0-45c9-b149-ba6806cc1968",
+  "izhg_guid_database": "00000000-0000-0000-0000-000000000000",
+  "rootNamespace": "IziHardGames",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

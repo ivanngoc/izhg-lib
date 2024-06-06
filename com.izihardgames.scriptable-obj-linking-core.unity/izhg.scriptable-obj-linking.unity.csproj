@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ProjectName>izhg.scriptable-obj-linking.unity</ProjectName>
+    <ProjectGuid>16154feb-5fd9-42e6-950e-ca520d9054bc</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Description>
+    </Description>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.editor.menu.unity\izhg.editor.menu-constants.unity.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>$(IZHG_DLLS_UNITY)\Unity3d Dlls\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

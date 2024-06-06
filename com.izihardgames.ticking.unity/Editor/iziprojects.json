@@ -1,0 +1,17 @@
+{
+  "guid": "8e228253-e5e3-4ad5-9e64-bca12155d5fe",
+  "csprojs": [
+    {
+      "guid": "ec42decd-682a-4e95-881d-51358e1039a2",
+      "fileName": "izhg.ticking.editor.unity.csproj",
+      "pathRelative": "izhg.ticking.editor.unity.csproj"
+    }
+  ],
+  "asmdefs": [
+    {
+      "guid": "d80b901a-192f-4bd2-9967-0752b83d26df",
+      "fileName": "izhg.ticking.editor.unity.asmdef",
+      "pathRelative": "izhg.ticking.editor.unity.asmdef"
+    }
+  ]
+}

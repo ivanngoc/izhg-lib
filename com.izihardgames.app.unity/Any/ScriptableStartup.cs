@@ -38,7 +38,7 @@ namespace IziHardGames.Apps.Abstractions.ForUnity.Presets
             }
         }
 
-        public void FinishStartup(IIziApp app)
+        public void FinishStartup(IIziAppVersion1 app)
         {
 
         }

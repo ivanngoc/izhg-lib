@@ -1,0 +1,24 @@
+{
+  "guid": "412437ed-68c9-4925-9391-bda6c904eeac",
+  "csprojs": [
+    {
+      "guid": "665513eb-49c7-4ccc-91bf-43dd7c7cf7c9",
+      "fileName": "izhg.app-v2.abstractions.csproj",
+      "pathRelative": "izhg.app-v2.abstractions.csproj"
+    }
+  ],
+  "asmdefs": [
+    {
+      "guid": "8096b116-951e-4921-8956-abc7d7c6b975",
+      "fileName": "izhg.app-v2.abstractions.asmdef",
+      "pathRelative": "izhg.app-v2.abstractions.asmdef"
+    }
+  ],
+  "unitypacks": [
+    {
+      "guid": "f8b327cc-ba59-4135-9526-8ea9de22a7a5",
+      "fileName": "package.json",
+      "pathRelative": "package.json"
+    }
+  ]
+}

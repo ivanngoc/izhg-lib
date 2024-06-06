@@ -1,0 +1,1 @@
+IziProjectsManager --init_package_unity="" --name="izhg.scriptable-obj-linking.unity"

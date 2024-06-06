@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.dependency-injection</ProjectName>
+    <ProjectGuid>82675a3b-cb9b-4281-b906-368dbc3c27b8</ProjectGuid>
+    <RootNamespace>IziHardGames.DependencyInjection</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+</Project>

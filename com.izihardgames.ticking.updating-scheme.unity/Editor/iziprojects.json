@@ -1,0 +1,17 @@
+{
+  "guid": "4138205b-40f6-454d-8a77-b9ff06d13c22",
+  "csprojs": [
+    {
+      "guid": "6462f5e7-7c73-41da-a6f1-f6b64f554fc6",
+      "fileName": "ticking.updating-scheme.editor.csproj",
+      "pathRelative": "ticking.updating-scheme.editor.csproj"
+    }
+  ],
+  "asmdefs": [
+    {
+      "guid": "816fad0d-f036-4a30-ac10-f38f45e28ac5",
+      "fileName": "ticking.updating-scheme.editor.asmdef",
+      "pathRelative": "ticking.updating-scheme.editor.asmdef"
+    }
+  ]
+}

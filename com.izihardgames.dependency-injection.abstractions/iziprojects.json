@@ -1,0 +1,24 @@
+{
+  "guid": "7bb6b411-5816-4c70-a54e-be5f0f07dbc2",
+  "csprojs": [
+    {
+      "guid": "d6881398-017c-4aa6-8061-4c80eb505655",
+      "fileName": "izhg.dependency-injection.abstractions.csproj",
+      "pathRelative": "izhg.dependency-injection.abstractions.csproj"
+    }
+  ],
+  "asmdefs": [
+    {
+      "guid": "538797b0-e393-4b0f-bb59-7c2697530e22",
+      "fileName": "izhg.dependency-injection.abstractions.asmdef",
+      "pathRelative": "izhg.dependency-injection.abstractions.asmdef"
+    }
+  ],
+  "unitypacks": [
+    {
+      "guid": "b61b048f-f7f6-4b46-997a-83ed7d582297",
+      "fileName": "package.json",
+      "pathRelative": "package.json"
+    }
+  ]
+}

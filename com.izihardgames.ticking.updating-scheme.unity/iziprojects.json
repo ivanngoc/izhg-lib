@@ -1,0 +1,24 @@
+{
+  "guid": "138007a0-ac97-4937-bb69-dfa536e6223c",
+  "csprojs": [
+    {
+      "guid": "f42d06d3-1678-496c-9bb1-dc4637c5006b",
+      "fileName": "ticking.updating-scheme.csproj",
+      "pathRelative": "ticking.updating-scheme.csproj"
+    }
+  ],
+  "asmdefs": [
+    {
+      "guid": "406809f7-2235-497f-8270-abd64fbbb974",
+      "fileName": "ticking.updating-scheme.asmdef",
+      "pathRelative": "ticking.updating-scheme.asmdef"
+    }
+  ],
+  "unitypacks": [
+    {
+      "guid": "56adb4b0-d9ac-41df-a0ba-877d231f2d9a",
+      "fileName": "package.json",
+      "pathRelative": "package.json"
+    }
+  ]
+}

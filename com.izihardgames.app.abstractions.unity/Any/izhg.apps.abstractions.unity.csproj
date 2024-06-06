@@ -29,5 +29,6 @@
       <ProjectName>izhg.attributes</ProjectName>
       <IziTag>28-Nov-23 02:31:08</IziTag>
     </ProjectReference>
+    <ProjectReference Include="..\..\com.izihardgames.editor.menu.unity\izhg.editor.menu-constants.unity.csproj" />
   </ItemGroup>
 </Project>

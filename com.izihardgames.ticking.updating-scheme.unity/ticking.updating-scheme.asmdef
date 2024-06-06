@@ -1,0 +1,19 @@
+{
+    "name": "ticking.updating-scheme",
+    "rootNamespace": "IziHardGames",
+    "references": [
+        "GUID:12e8e39da0122a641ad584746a49f82c",
+        "GUID:40ccc1a2f87dcdf4c97f16506b5e2306",
+        "GUID:8ebc4cf70159fc940a87b396f90fd6b9",
+        "GUID:486da6e238f015b48993e93c686b285f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

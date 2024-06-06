@@ -1,0 +1,17 @@
+{
+  "name": "izhg.app-v2.abstractions",
+  "izhg_semantic_name": "",
+  "izhg_guid": "8096b116-951e-4921-8956-abc7d7c6b975",
+  "izhg_guid_database": "00000000-0000-0000-0000-000000000000",
+  "rootNamespace": "IziHardGames",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

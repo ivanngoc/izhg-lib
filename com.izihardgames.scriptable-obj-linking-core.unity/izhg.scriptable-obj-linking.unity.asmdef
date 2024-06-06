@@ -1,0 +1,17 @@
+{
+  "name": "izhg.scriptable-obj-linking.unity",
+  "izhg_semantic_name": "",
+  "izhg_guid": "ccbf9ed6-f78c-4b96-a1f3-c07462bda34c",
+  "izhg_guid_database": "00000000-0000-0000-0000-000000000000",
+  "rootNamespace": "IziHardGames",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

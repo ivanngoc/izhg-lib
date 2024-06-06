@@ -1,0 +1,24 @@
+{
+  "name": "izhg.http-client.unity",
+  "version": "1.0.0",
+  "displayName": "izhg.http-client.unity",
+  "description": "This is an example package",
+  "unity": "2022.3",
+  "unityRelease": "12f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "guid": "c4d2d312-5273-4a78-a5a5-837d3673c615",
+  "keywords": [
+    "nonengine",
+    "app",
+    "abstractions"
+  ],
+  "author": {
+    "name": "Tran Ngoc Anh",
+    "email": "tna.work10@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {},
+  "asmdefGuid": ""
+}

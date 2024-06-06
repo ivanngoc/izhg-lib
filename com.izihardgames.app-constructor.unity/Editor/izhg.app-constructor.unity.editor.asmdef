@@ -1,0 +1,19 @@
+{
+    "name": "izhg.app-constructor.unity.editor",
+    "rootNamespace": "IziHardGames.ForEditor.AppConstructor",
+    "references": [
+        "GUID:25b1ca4ca1494778ac7f46b23d8944e2",
+        "GUID:2af4af6055fa4ccb9428e46432ee16de"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

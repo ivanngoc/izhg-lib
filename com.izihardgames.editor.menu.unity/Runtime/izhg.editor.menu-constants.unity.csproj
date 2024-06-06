@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ProjectName>izhg.editor.menu-constants.unity</ProjectName>
+    <ProjectGuid>3c13004f-bb50-4075-a157-7a6f79ba3fd4</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Description>
+    </Description>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

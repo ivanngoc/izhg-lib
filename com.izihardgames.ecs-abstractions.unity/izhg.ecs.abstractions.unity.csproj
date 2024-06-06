@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.ecs.abstractions.unity</ProjectName>
+    <ProjectGuid>69179424-f713-4b91-969d-13fb1de6f409</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.app.abstractions.netstd21\Any\izhg.apps.abstractions.netstd21.csproj" />
+    <ProjectReference Include="..\com.izihardgames.attributes.netstd21\izhg.attributes.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Unity.Collections">
+      <HintPath>C:\.izhg-dlls\Unity3d Dlls\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>C:\.izhg-dlls\Unity3d Dlls\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\.izhg-dlls\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>izhg.app-constructor.unity</ProjectName>
+    <ProjectGuid>a439988c-49a5-466d-9bc7-5b8b63173781</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.dependency-injection.abstractions\izhg.dependency-injection.abstractions.csproj" />
+    <ProjectReference Include="..\com.izihardgames.editor.menu.unity\izhg.editor.menu-constants.unity.csproj" />
+    <ProjectReference Include="..\com.izihardgames.scriptable-obj-linking-core.unity\izhg.scriptable-obj-linking.unity.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ScriptableObjects\" />
+  </ItemGroup>
+</Project>

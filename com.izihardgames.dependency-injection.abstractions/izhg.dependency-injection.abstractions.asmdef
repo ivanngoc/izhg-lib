@@ -1,0 +1,17 @@
+{
+  "name": "izhg.dependency-injection.abstractions",
+  "izhg_semantic_name": "",
+  "izhg_guid": "538797b0-e393-4b0f-bb59-7c2697530e22",
+  "izhg_guid_database": "00000000-0000-0000-0000-000000000000",
+  "rootNamespace": "IziHardGames",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

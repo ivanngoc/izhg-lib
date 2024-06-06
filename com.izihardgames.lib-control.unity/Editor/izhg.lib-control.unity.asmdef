@@ -1,0 +1,21 @@
+{
+    "name": "izhg.lib-control.unity",
+    "rootNamespace": "IziHardGames",
+    "references": [
+        "GUID:2af4af6055fa4ccb9428e46432ee16de",
+        "GUID:7d40cd846aee4776a6556715240d90a5",
+        "GUID:271f7274b58148279514e7591da90e40",
+        "GUID:bfb41858521e47be87ccb1e149909fd1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

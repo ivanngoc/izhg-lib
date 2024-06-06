@@ -1,0 +1,17 @@
+{
+    "name": "izhg.editor.reflections.unity",
+    "rootNamespace": "IziHardGames",
+    "references": [
+        "GUID:7d40cd846aee4776a6556715240d90a5",
+        "GUID:2af4af6055fa4ccb9428e46432ee16de"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

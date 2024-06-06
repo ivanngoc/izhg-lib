@@ -1,5 +1,6 @@
 using System;
 using IziHardGames.Libs.NonEngine.Game.Abstractions;
+using IziHardGames.Ticking.SlotBased;
 
 namespace IziHardGames.Ticking.Abstractions.Lib
 {
@@ -46,10 +47,6 @@ namespace IziHardGames.Ticking.Abstractions.Lib
                 current.Execute();
                 current = current.Next;
             }
-        }
-        public override void Regist(Action action)
-        {
-            throw new NotImplementedException();
         }
     }
 

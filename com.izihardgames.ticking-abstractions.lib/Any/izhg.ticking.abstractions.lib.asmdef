@@ -3,7 +3,8 @@
     "rootNamespace": "IziHardGames.Ticking.Abstreactions.Lib",
     "references": [
         "GUID:12e8e39da0122a641ad584746a49f82c",
-        "GUID:ceb8a6f2aa23c854392f8b8b40029b7f"
+        "GUID:ceb8a6f2aa23c854392f8b8b40029b7f",
+        "GUID:25b1ca4ca1494778ac7f46b23d8944e2"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

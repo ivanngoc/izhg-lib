@@ -9,6 +9,10 @@ using UnityEngine;
 
 namespace IziHardGames.UserControl.ForUnity
 {
+
+    /// <summary>
+    /// <see cref="ExtensionsForIziAppBuilderAsUserControlUnity.UseUserControlForUnity(IIziAppBuilder)"/>
+    /// </summary>
     public class UserControlMonoService : IIziService
     {
         private IziInputSystem? iziInputSystem;
@@ -53,6 +57,7 @@ namespace IziHardGames.UserControl.ForUnity
 
         public void Start()
         {
+            Debug.Log($"Trace");
             var app = IziApp.Singleton ?? throw new NullReferenceException();
 
             if (app.TryGetSingleton<Camera>(out var camera))

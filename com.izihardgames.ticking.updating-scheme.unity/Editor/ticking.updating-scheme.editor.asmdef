@@ -1,0 +1,17 @@
+{
+  "name": "ticking.updating-scheme.editor",
+  "izhg_semantic_name": "",
+  "izhg_guid": "816fad0d-f036-4a30-ac10-f38f45e28ac5",
+  "izhg_guid_database": "00000000-0000-0000-0000-000000000000",
+  "rootNamespace": "IziHardGames",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

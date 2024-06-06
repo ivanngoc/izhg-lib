@@ -1,0 +1,24 @@
+{
+  "guid": "66d90214-1c9a-4a65-a2ae-01866290ecf4",
+  "csprojs": [
+    {
+      "guid": "a439988c-49a5-466d-9bc7-5b8b63173781",
+      "fileName": "izhg.app-constructor.unity.csproj",
+      "pathRelative": "izhg.app-constructor.unity.csproj"
+    }
+  ],
+  "asmdefs": [
+    {
+      "guid": "25b1ca4c-a149-4778-ac7f-46b23d8944e2",
+      "fileName": "izhg.app-constructor.unity.asmdef",
+      "pathRelative": "izhg.app-constructor.unity.asmdef"
+    }
+  ],
+  "unitypacks": [
+    {
+      "guid": "27308eb8-49be-4615-bb52-f74789180958",
+      "fileName": "package.json",
+      "pathRelative": "package.json"
+    }
+  ]
+}

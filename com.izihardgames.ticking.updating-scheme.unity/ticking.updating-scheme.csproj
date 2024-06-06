@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>ticking.updating-scheme</ProjectName>
+    <ProjectGuid>f42d06d3-1678-496c-9bb1-dc4637c5006b</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <BaseOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\buildstemp\$(ProjectName)\$(Configuration)\obj</BaseIntermediateOutputPath>
+    <Description>
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.izihardgames.app.abstractions.unity\Any\izhg.apps.abstractions.unity.csproj" />
+    <ProjectReference Include="..\com.izihardgames.app.unity\Any\izhg.apps.unity.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\.izhg-dlls\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

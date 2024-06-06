@@ -10,8 +10,10 @@ using IziHardGames.DependencyInjection.Promises;
 
 namespace IziHardGames.Apps.NetStd21
 {
-    public class IziApp : IIziApp
+    public class IziApp : IIziAppVersion1
     {
+        public Type this[Type key] => throw new System.NotImplementedException();
+
         public static IziApp? Singleton;
         private static event Action? OnAppRunning;
         private static TaskCompletionSource<IziApp> tcs;
@@ -60,7 +62,7 @@ namespace IziHardGames.Apps.NetStd21
         private void SetApp(IziApp iziApp)
         {
             Singleton = iziApp;
-            IIziApp.Singleton = iziApp;
+            IIziAppVersion1.Singleton = iziApp;
             OnAppRunning?.Invoke();
         }
 
@@ -224,7 +226,7 @@ namespace IziHardGames.Apps.NetStd21
 
         public string GetListOfSingletons() => singletons.Select(x => $"{x.Key.FullName}; {x.Value.ToString()}").Aggregate((x, y) => x + Environment.NewLine + y);
 
-        public IziDynamicPromise<T> GetDynamicPromise<T>() where T : class
+        public IziBox<T> GetDynamicPromise<T>() where T : class
         {
             throw new NotImplementedException();
         }

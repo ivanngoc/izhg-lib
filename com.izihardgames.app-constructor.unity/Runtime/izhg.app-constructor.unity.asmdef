@@ -1,0 +1,20 @@
+{
+    "name": "izhg.apps-constructor.unity",
+    "rootNamespace": "IziHardGames",
+    "references": [
+        "GUID:ceb8a6f2aa23c854392f8b8b40029b7f",
+        "GUID:12e8e39da0122a641ad584746a49f82c",
+        "GUID:40ccc1a2f87dcdf4c97f16506b5e2306",
+        "GUID:7d40cd846aee4776a6556715240d90a5",
+        "GUID:f4ef8061c82e4d3eb8776eb28c2ab542"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

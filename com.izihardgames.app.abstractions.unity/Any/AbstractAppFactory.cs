@@ -6,7 +6,7 @@ namespace IziHardGames.Apps.ForUnity
 {
     public abstract class AbstractAppFactory : MonoBehaviour, IIziAppFactory
     {
-        public abstract Task<IIziApp> CreateAsync(IIziAppBuilder builder);
+        public abstract Task<IIziAppVersion1> CreateAsync(IIziAppBuilder builder);
     }
 }
 
